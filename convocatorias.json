@@ -1,0 +1,1108 @@
+{
+  "last_updated": "2026-03-27T16:02:12.732456+00:00",
+  "convocatorias": [
+    {
+      "id": 6,
+      "source": "IDAE",
+      "title": "Programa H2 Pioneros. Ayudas para proyectos pioneros y singulares de hidrógeno renovable",
+      "description": "",
+      "match": 78,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 4,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa tractora de sector cliente (cerámica, siderurgia)",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/programa-h2-pioneros-ayudas-para-proyectos-pioneros-y-singulares-de-hidrogeno",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "h2",
+        "desc",
+        "horn",
+        "emis"
+      ],
+      "summary": "Excelente encaje estratégico. H2 Pioneros de IDAE es directamente aplicable a los quemadores H2-ready de Kalfrisa para hornos industriales de alta temperatura. La convocatoria cubre proyectos singulares de demostración en contextos industriales reales, alineados con descarbonización y TRL 4-7 de la empresa. Riesgo bajo de exclusión sectorial.",
+      "action": "Presentar propuesta para validación de quemadores 100% H2 en hornos de cerámica o siderurgia con recuperación de calor integrada. Estructurar consorcio con centro tecnológico (electrólisis/H2) + cliente industrial piloto + Kalfrisa como integradora de combustión.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 90
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 88
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 70
+        }
+      ],
+      "keywords_found": [
+        "hidrógeno"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 7,
+      "source": "IDAE",
+      "title": "Programas de ayuda a la cadena de valor innovadora del hidrógeno renovable en el marco del Plan de Recuperación, Transformación y Resiliencia",
+      "description": "",
+      "match": 78,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 4,
+      "trl_max": 7,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa grande del sector industrial (siderurgia, cerámica, vidrio)",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/programas-de-ayuda-la-cadena-de-valor-innovadora-del-hidrogeno-renovable-en",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "h2",
+        "desc",
+        "horn",
+        "emis"
+      ],
+      "summary": "Excelente alineación con los quemadores H2-ready y sistemas de transición energética de Kalfrisa. La convocatoria IDAE de cadena de valor del hidrógeno renovable en contexto PRTR cubre precisamente la adopción industrial de H2 en procesos térmicos de alta temperatura (hornos, forja, tratamiento térmico). El rango TRL 4-7 coincide con la capacidad demostrada de Kalfrisa.",
+      "action": "Solicitar información detallada sobre líneas específicas de ayuda (desarrollo tecnológico vs. inversión en equipos), requisitos de uso de H2 renovable certificado, y compatibilidad con proyectos de demostración en clientes del sector cerámico/siderúrgico. Preparar pre-propuesta con consorcio que incluya cliente industrial como socio implementador.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 90
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 95
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 75
+        }
+      ],
+      "keywords_found": [
+        "hidrógeno"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 8,
+      "source": "IDAE",
+      "title": "Para eficiencia energética en la industria",
+      "description": "",
+      "match": 75,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 4,
+      "trl_max": 7,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), o cliente industrial del sector cerámico/siderúrgico",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "emis",
+        "desc"
+      ],
+      "summary": "Convocatoria IDAE de eficiencia energética industrial con encaje directo en el core de Kalfrisa: recuperación de calor residual, control de emisiones y optimización térmica en procesos industriales de alta temperatura. El rango TRL 4-7 coincide perfectamente con la madurez habitual de proyectos de la empresa. Alineación estratégica alta con su cartera tecnológica en hornos industriales.",
+      "action": "Solicitar información detallada sobre sectores admisibles, requisitos de innovación incremental/radical, y disponibilidad de financiación para validación en entorno relevante (TRL 5-6). Preparar candidatura enfocada en recuperación de calor residual o integración H2 en quemadores existentes con socio cliente de sector cerámico o metalúrgico.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 85
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 80
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 95
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 70
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 9,
+      "source": "IDAE",
+      "title": "Concesión directa CCAA de las ayudas para actuaciones de eficiencia energética en PYME y gran empresa del sector industrial",
+      "description": "",
+      "match": 75,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) o empresa industrial tractora del sector cliente",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/concesion-directa-ccaa-de-las-0",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "desc",
+        "h2",
+        "horn",
+        "emis"
+      ],
+      "summary": "Encaje directo con el core de Kalfrisa. Convocatoria de eficiencia energética industrial de IDAE orientada a procesos térmicos en PYME/gran empresa, perfectamente alineada con recuperación de calor residual, quemadores H2-ready y sistemas de control de emisiones en hornos industriales. TRL esperado (5-8) coincide con capacidad demostrada de la empresa.",
+      "action": "Elegible inmediata. Priorizar proyectos de retrofit de recuperadores de calor o conversión a H2 en clientes cerámica/siderúrgica. Considerar consorcio con centro tecnológico para validación en entorno relevante y acceso a infraestructuras de test.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 90
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 95
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 70
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 11,
+      "source": "IDAE",
+      "title": "Segunda convocatoria del Programa de ayudas para actuaciones de eficiencia energética en PYME y gran empresa del sector industrial (FNEE)",
+      "description": "",
+      "match": 72,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) o empresa industrial tractora de sectores cerámico/siderúrgico",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/convocatorias-cerradas/segunda-convocatoria-ayudas-pyme-fnee",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "emis",
+        "desc"
+      ],
+      "summary": "La convocatoria FNEE de IDAE es altamente relevante para Kalfrisa: financia actuaciones de eficiencia energética en industria, alineada con su core en recuperación de calor residual y sistemas de control de emisiones en hornos de alta temperatura. El rango TRL esperado (5-8, demostraciones y pre-comercialización) coincide con la capacidad operativa de Kalfrisa. Potencial máximo en sectores cliente como cerámica, siderurgia y química.",
+      "action": "Participar como coordinador técnico o socio industrial con soluciones de recuperación de calor en hornos (>400°C) o control de emisiones. Buscar cliente piloto en cerámica o siderurgia como socio de consorcio para validación en entorno relevante.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 85
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 80
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 90
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 60
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 5,
+      "source": "IDAE",
+      "title": "Nuevos modelos de negocio para la transición energética, dentro del PERTE ERHA",
+      "description": "",
+      "match": 65,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), empresa tractora de sectores cliente (cerámica, siderurgia, química), universidad (Unizar)",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/nuevos-modelos-de-negocio-para-la-transicion-energetica-dentro-del-perte-erha",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "h2",
+        "desc",
+        "emis",
+        "horn"
+      ],
+      "summary": "La convocatoria de modelos de negocio para transición energética dentro del PERTE ERHA encaja moderadamente con Kalfrisa. El foco en hidrógeno y descarbonización industrial es muy alineado con las tecnologías core (quemadores H2-ready, recuperación de calor, control de emisiones), pero la genericidad sobre 'modelos de negocio' sin especificar si contempla demostraciones tecnológicas en procesos térmicos industriales genera incertidumbre. Si exige TRL >7 o se orienta hacia consultoría sin validación en entorno relevante, el encaje disminuye significativamente.",
+      "action": "Solicitar bases publicadas para verificar si acepta demostraciones de tecnologías H2 en hornos industriales reales (TRL 6-7). Si aplica, presentar proyecto con solución de quemadores H2 en cerámica/siderurgia + modelo comercial de integración con sistemas de recuperación térmica.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 75
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 80
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 50
+        }
+      ],
+      "keywords_found": [
+        "transición energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 10,
+      "source": "IDAE",
+      "title": "Eficiencia energética en PYME y gran empresa del sector industrial. Convocatorias en las Comunidades Autónomas",
+      "description": "",
+      "match": 65,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + empresa industrial cliente (cerámica, siderurgia)",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/concesion-directa-ccaa-de-las",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "emis",
+        "desc"
+      ],
+      "summary": "Convocatoria IDAE de eficiencia energética industrial con encaje moderado-alto en procesos térmicos de Kalfrisa. Aunque genérica en descripción, IDAE típicamente financia proyectos de demostración en plantas industriales (TRL 5-7). El perfil de Kalfrisa (recuperación de calor, control de emisiones en hornos) es elegible, pero requiere validar alcance sectorial específico en bases regulatorias y asegurar que no se enfoque en edificios/terciario.",
+      "action": "Solicitar detalles de convocatoria específica de la CA (Aragón recomendada). Posicionar proyecto: 'Optimización de recuperación de calor residual y control de emisiones en hornos industriales de cerámica/metalurgia'. Consorcio con cliente industrial + ITAINNOVA.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 75
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 80
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 50
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 13,
+      "source": "IDAE",
+      "title": "Fondo Nacional de Eficiencia Energética",
+      "description": "",
+      "match": 45,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + empresa industrial cliente (cerámica, siderurgia)",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/fondo-nacional-de-eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "emis",
+        "desc"
+      ],
+      "summary": "El Fondo Nacional de Eficiencia Energética de IDAE es potencialmente relevante para Kalfrisa si se enfoca en procesos térmicos industriales de alta temperatura (hornos, tratamientos térmicos). Sin embargo, la convocatoria IDAE es genérica y de amplio espectro: históricamente cubre edificios, transporte y sectores no industriales, lo que genera riesgo de desalineación. El encaje es viable solo si Kalfrisa presenta proyectos de recuperación de calor residual o eficiencia en hornos industriales concretos, con demo en planta cliente.",
+      "action": "Solicitar bases detalladas de IDAE 2024-2025 para confirmar si incluye eficiencia en procesos térmicos industriales (NO edificios ni transporte). Si sí, preparar candidatura con recuperación de calor en horno industrial como caso de uso piloto con cliente real del sector cerámico o siderúrgico.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 60
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 75
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 35
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 1,
+      "source": "IDAE",
+      "title": "Subastas de hidrógeno renovable_AaaS",
+      "description": "",
+      "match": 35,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria de subastas de hidrógeno renovable en modelo AaaS (As-a-Service) enfocada a demanda/consumo de H2, no a desarrollo tecnológico industrial de I+D. Kalfrisa desarrolla tecnologías de quemadores H2-ready y sistemas térmicos, no es consumidor final de H2 ni operador de infraestructura de suministro. Fuera del scope de I+D industrial.",
+      "trl_min": 8,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/programa-de-ayudas-subastas-de-hidrogeno-renovable-AaaS",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "h2",
+        "desc"
+      ],
+      "summary": "Aunque el hidrógeno es vector estratégico para Kalfrisa, esta convocatoria IDAE de subastas AaaS es un mecanismo de compra/demanda de hidrógeno renovable para usuarios finales, no financiación de I+D tecnológico. El perfil de Kalfrisa (fabricante de equipos y sistemas de control térmico) no coincide con el de operador/consumidor de H2 en modelo de servicio.",
+      "action": "Descartar. Monitorizar en su lugar convocatorias IDAE/CDTI de I+D en 'tecnologías de combustión con H2', 'integración de H2 en procesos industriales' o 'demostradores de quemadores H2-ready en sectores cerámico/metalúrgico' donde sí hay encaje claro.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 45
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 20
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 15
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 30
+        }
+      ],
+      "keywords_found": [
+        "hidrógeno"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 14,
+      "source": "IDAE",
+      "title": "Ingreso aportaciones al Fondo Nacional de Eficiencia Energética 2026",
+      "description": "",
+      "match": 35,
+      "priority": "low",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "Empresa industrial tractora (cerámica, siderurgia, vidrio) como cliente implementador",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/ingreso-aportaciones-al-fondo-nacional-de-eficiencia-energetica-2026",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "emis"
+      ],
+      "summary": "La convocatoria IDAE de Fondo Nacional de Eficiencia Energética es genérica en eficiencia energética industrial, sin especificación de tecnologías, sectores o TRL. Kalfrisa tiene capacidad de participar en proyectos de demostración (TRL 6-7), pero el encaje depende críticamente de si la convocatoria permite soluciones de alta temperatura (>400°C) y tratamiento de emisiones acopladas, no solo ahorro de energía convencional.",
+      "action": "Solicitar bases detalladas a IDAE. Si la convocatoria acepta proyectos de recuperación de calor residual y control de emisiones en hornos industriales (cerámica, siderurgia, vidrio), elevar match_score a 65-70. En caso contrario, descartar por falta de alineación sectorial clara.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 45
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 75
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 60
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 25
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 15,
+      "source": "IDAE",
+      "title": "Eficiencia Energética",
+      "description": "",
+      "match": 25,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria IDAE de 'Eficiencia Energética' genérica sin especificación sectorial. Alto riesgo de enfoque residencial/terciario (criterio de exclusión). Información insuficiente para confirmar aplicabilidad a procesos térmicos industriales de alta temperatura. Perfil Kalfrisa requiere convocatorias con ámbito explícitamente industrial.",
+      "trl_min": 4,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria es genérica en eficiencia energética sin detallar sectores ni aplicaciones. Kalfrisa podría encajar solo si la convocatoria incluye explícitamente industria pesada (cerámica, vidrio, metalurgia), pero la descripción minimalista y procedencia IDAE (agencia con fuerte presencia en sector residencial/terciario) genera riesgo alto de exclusión por criterios de elegibilidad.",
+      "action": "Solicitar bases regulatorias completas antes de invertir esfuerzo. Si la convocatoria no especifica sectores o menciona edificios/terciario, descartar inmediatamente. Solo proceder si hay anexo técnico que certifique cobertura de 'procesos térmicos industriales de alta temperatura'.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 35
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 70
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 20
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 19,
+      "source": "IDAE",
+      "title": "Plan Nacional de Acción de Eficiencia Energética 2017-2020",
+      "description": "",
+      "match": 18,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria cerrada (2017-2020) sin vigencia actual. Además, Plan Nacional IDAE de este período enfatiza eficiencia genérica en edificios y sectores terciarios, fuera del alcance de procesos térmicos industriales de Kalfrisa.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/plan-nacional-de-accion-de-eficiencia-energetica-2017-2020",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Aunque la convocatoria trata eficiencia energética, su marco temporal ha expirado (2017-2020) y su orientación histórica no se ajustaba al nicho de Kalfrisa en hornos industriales de alta temperatura. Los planes IDAE de esa época priorizaban sectores residencial y servicios, no procesos térmicos industriales complejos.",
+      "action": "Descartar. Convocatoria cerrada y sin alineación con el perfil industrial de Kalfrisa. Consultar planes IDAE vigentes actuales orientados a descarbonización industrial y transición energética (2024+).",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 25
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 21,
+      "source": "IDAE",
+      "title": "Transición Energética en las Islas Canarias",
+      "description": "",
+      "match": 18,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria IDAE de transición energética en Canarias orientada a sector residencial, terciario y energías renovables de generación eléctrica. No especifica procesos térmicos industriales de alta temperatura ni aplicación a hornos industriales, metalurgia o cerámica. Encaje sectorial incompatible con CNAE y tecnologías core de Kalfrisa.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/oficina-tecnica-de-energia-limpia-y-proyectos-inteligentes-en-las-islas/energia-sostenible-en-las-islas-pniec-prtr/transicion-energetica-en-las-islas-canarias",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "desc",
+        "ee"
+      ],
+      "summary": "La convocatoria IDAE de transición energética en Canarias se orienta preferentemente a eficiencia energética genérica en sectores residencial y terciario, así como a despliegue de renovables de generación eléctrica (solar FV, eólica), sectores explícitamente excluidos del perfil de Kalfrisa. Aunque la descarbonización es compatible con la estrategia de la empresa, la falta de especificidad en procesos térmicos industriales de alta temperatura y la ausencia de hidrógeno como eje central la sitúan fuera del foco.",
+      "action": "Descartar. Monitorizar futuras convocatorias IDAE específicamente dirigidas a industria cerámica, vidrio, metalurgia o química con énfasis en tratamiento de emisiones o hidrógeno industrial en Canarias.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 15
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 40
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 60
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "transición energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 2,
+      "source": "IDAE",
+      "title": "Para la transición energética en las islas PRTR",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria genérica de transición energética en islas. IDAE típicamente financia eficiencia energética en edificios, renovables de generación eléctrica y movilidad sostenible en territorios insulares, sectores explícitamente excluidos del perfil de Kalfrisa. Ausencia total de información sobre procesos térmicos industriales de alta temperatura.",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-la-transicion-energetica-en-las-islas-prtr",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "desc",
+        "ee"
+      ],
+      "summary": "La convocatoria PRTR de IDAE para transición energética en islas carece de especificidad sobre procesos industriales térmicos. Las convocatorias IDAE insulares se orientan históricamente a eficiencia en edificios residenciales/terciarios, energías renovables eléctricas y electrificación de transportes, todos ellos criterios de exclusión absoluta para Kalfrisa. El contexto insular (PRTR territorial) sugiere además enfoque en infraestructura de pequeña escala, no plantas industriales.",
+      "action": "Descartar. Solicitar a IDAE las bases detalladas antes de cualquier consideración, pero es altamente improbable que esta línea financie tecnologías de tratamiento de emisiones en hornos industriales o recuperación de calor residual.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 0
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 35
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "transición energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 3,
+      "source": "IDAE",
+      "title": "Para Desarrollo Urbano Sostenible. Proyectos de Entidades Locales que favorezcan el paso a una economía baja en carbono (FEDER - POPE 2014-2020)",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria orientada a entidades locales y desarrollo urbano sostenible (edificios, infraestructuras municipales, transporte urbano). Excluye explícitamente procesos térmicos industriales de alta temperatura. Kalfrisa es empresa privada con soluciones para industria manufacturera, no para administraciones locales ni sector terciario/residencial.",
+      "trl_min": 7,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-desarrollo-urbano-sostenible-proyectos-de-entidades-locales-que",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "desc"
+      ],
+      "summary": "La convocatoria FEDER-POPE 2014-2020 de IDAE para desarrollo urbano sostenible está diseñada para administraciones locales e intervenciones en infraestructura urbana, edificios públicos y movilidad municipal. Kalfrisa, como empresa industrial especializada en eficiencia térmica y descarbonización de hornos industriales de >400°C, no encaja en el perfil de solicitante ni en los sectores elegibles (residencial/terciario urbano).",
+      "action": "Descartar. No es aplicable a Kalfrisa como empresa privada industrial. Buscar en su lugar convocatorias de CDTI, IDAE orientadas a innovación industrial (PERTE, INNOMIND) o autonómicas aragonesas específicas en descarbonización industrial.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 25
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "economía baja en carbono"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 18,
+      "source": "IDAE",
+      "title": "Guía Metodológica para la realización del análisis coste-beneficio a nivel de instalación de acuerdo al artículo 14 de la Directiva de Eficiencia Energética",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria orientada a metodología y análisis coste-beneficio genérico de eficiencia energética (Directiva 2012/27/UE), no a desarrollo tecnológico I+D industrial. Kalfrisa desarrolla soluciones tecnológicas en TRL 4-7, no servicios de consultoría normativa o análisis de cumplimiento regulatorio.",
+      "trl_min": 9,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/transformacion-de-la-energia/guia-metodologica-para-la-realizacion",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Esta convocatoria IDAE solicita elaboración de una guía metodológica para cumplir obligaciones regulatorias de análisis coste-beneficio en eficiencia energética. No financia desarrollo de tecnologías, sino actividades de asesoría normativa y transferencia de conocimiento sobre cumplimiento de directivas. Aunque toca eficiencia energética industrial, no es I+D tecnológico sino servicios de consultoría y documentación.",
+      "action": "Descartar. Kalfrisa debe enfocarse en convocatorias de I+D que financien desarrollo, validación o demostración de tecnologías (quemadores H2, recuperación de calor, control de emisiones), no en servicios de asesoría regulatoria o elaboración de guías metodológicas.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 25
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 5
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 20,
+      "source": "IDAE",
+      "title": "Transición Energética en las Illes Balears",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria territorial (Illes Balears) sin especificidad industrial térmica. Riesgo alto de orientación hacia eficiencia energética en edificios, sector terciario o infraestructura insular, fuera del alcance de Kalfrisa. Falta información sobre sectores industriales y procesos térmicos.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/oficina-tecnica-de-energia-limpia-y-proyectos-inteligentes-en-las-islas/energia-sostenible-en-las-islas-pniec-prtr/transicion-energetica-en-las-illes-balears",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [],
+      "summary": "La convocatoria de IDAE sobre transición energética en Baleares carece de especificidad sobre procesos térmicos industriales de alta temperatura. El carácter territorial y genérico del título sugiere enfoque en edificios, transporte o infraestructura renovable, sectores explícitamente excluidos del perfil Kalfrisa. Sin detalles de bases, no es posible confirmar que exista una línea industrial relevante.",
+      "action": "Descartar a menos que se acceda a las bases completas y se confirme explícitamente una línea dedicada a industria térmica (cerámica, siderurgia, química) con procesos >400°C. Monitorizar futuras convocatorias IDAE más específicas en eficiencia energética industrial.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 10
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 50
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 65
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "transición energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 22,
+      "source": "IDAE",
+      "title": "Medidas del Gobierno de ahorro y eficiencia energética (Incluye cartelería para descargar)",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria de IDAE de 'ahorro y eficiencia energética' orientada genéricamente a edificios, servicios y sectores terciarios. Sin especificación de procesos térmicos industriales de alta temperatura. Perfil incompatible con tecnologías core de Kalfrisa (hornos >400°C, postcombustión, H2 industrial).",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ahorra-energia/medidas-del-gobierno-de-ahorro-y-eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria IDAE carece de detalle suficiente, pero las convocatorias de este tipo están históricamente dirigidas a eficiencia energética genérica (climatización, iluminación, envolventes) en edificios y terciario, sectores explícitamente excluidos del perfil de Kalfrisa. Aunque Kalfrisa tiene experiencia IDAE, esta línea no responde a su cadena de valor.",
+      "action": "Descartar. Solicitar acceso a las Bases completas y verificar si existe un anexo específico para industria procesista con hornos. Si no existe, no presentar.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 4,
+      "source": "IDAE",
+      "title": "Programa de Ayudas para actuaciones de eficiencia energética en el sector ferroviario (FNEE)",
+      "description": "",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Transporte ferroviario excluido explícitamente. Kalfrisa opera en procesos térmicos industriales de alta temperatura (>400°C) en hornos, no en sistemas de tracción o propulsión ferroviaria.",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-movilidad-y-vehiculos/convocatorias-cerradas/programa-de-ayudas-para-0",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria de eficiencia energética en sector ferroviario no aplica a Kalfrisa. Aunque menciona 'eficiencia energética', se dirige a transporte terrestre (excluido en criterios absolutos), no a procesos térmicos industriales. El perfil de Kalfrisa es incompatible con actuaciones en trenes, sistemas de frenado regenerativo o propulsión ferroviaria.",
+      "action": "Descartar. No investigar líneas de soluciones ferroviarias. Redirigir esfuerzos a convocatorias de eficiencia térmica e emisiones en cerámica, metalurgia, vidrio o química industrial.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 0
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 40
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 35
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 12,
+      "source": "IDAE",
+      "title": "Programa de ayudas para la realización de actuaciones de eficiencia energética en explotaciones agropecuarias",
+      "description": "",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria dirigida a explotaciones agropecuarias. Agricultura está en criterios de exclusión absoluta de Kalfrisa. La empresa no tiene experiencia ni capacidad tecnológica en ese sector.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/programa-de-ayudas-para-la-realizacion-de-actuaciones-de-eficiencia",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Aunque trata eficiencia energética, esta convocatoria IDAE está específicamente dirigida al sector agropecuario, que figura en los criterios de exclusión absoluta del perfil de Kalfrisa. La especialización de Kalfrisa en procesos térmicos industriales de alta temperatura (hornos, calderas industriales) no tiene aplicación en explotaciones agrícolas o ganaderas.",
+      "action": "Descartar. No presentar solicitud. Buscar alternativas en convocatorias de eficiencia energética industrial (cemento, cerámica, vidrio, siderurgia) donde Kalfrisa tiene experiencia comprobada.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 0
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 15
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 50
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 16,
+      "source": "IDAE",
+      "title": "Guías Técnicas de Ahorro y Eficiencia Energética en Climatización",
+      "description": "",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria enfocada en climatización de edificios (sector terciario/residencial), no en procesos térmicos industriales de alta temperatura. Entra directamente en criterio de exclusión: 'Eficiencia energética en edificios residenciales o sector terciario'.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/edificacion/reglamento-de-instalaciones-termicas-de-los-0",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [],
+      "summary": "A pesar de que IDAE financia eficiencia energética y Kalfrisa tiene experiencia en proyectos del organismo, esta convocatoria específica trata guías técnicas para climatización en edificios, sector completamente fuera del perímetro de Kalfrisa. No hay aplicación a hornos industriales, tratamiento de emisiones térmicas, o procesos de alta temperatura.",
+      "action": "Descartar. Monitorizar otras convocatorias IDAE enfocadas a industria térmica o descarbonización en sectores tractores como cerámica, siderurgia o vidrio.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 2
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 0
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 50
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 17,
+      "source": "IDAE",
+      "title": "Documentos de ahorro y eficiencia energética en la agricultura",
+      "description": "",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Agricultura está explícitamente en criterios de exclusión absoluta. La convocatoria se centra en documentos de ahorro energético en sector agrícola, no en procesos térmicos industriales de alta temperatura. Sin componente industrial relevante para Kalfrisa.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/agricultura-y-pesca/documentos-de-ahorro-y-eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria IDAE sobre ahorro energético en agricultura no encaja con el perfil de Kalfrisa. Aunque trata eficiencia energética (keyword superficialmente coincidente), el sector agrícola está explícitamente excluido y carece de los procesos térmicos industriales de alta temperatura que caracterizan la especialización core de la empresa.",
+      "action": "Descartar sin análisis adicional. No perseguir contacto con IDAE sobre esta línea.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 0
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 50
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 60
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    }
+  ],
+  "stats": {
+    "active": 22,
+    "high": 0,
+    "urgent": 0,
+    "budget": 0.0
+  },
+  "sources": [
+    {
+      "name": "HORIZON EUROPE",
+      "type": "API REST",
+      "status": "warn",
+      "count": 0,
+      "time": "actualizado 16:02"
+    },
+    {
+      "name": "CDTI",
+      "type": "RSS Feed",
+      "status": "warn",
+      "count": 0,
+      "time": "actualizado 16:02"
+    },
+    {
+      "name": "IDAE",
+      "type": "Web Scraping",
+      "status": "ok",
+      "count": 22,
+      "time": "actualizado 16:02"
+    },
+    {
+      "name": "BOE / MITECO",
+      "type": "API BOE",
+      "status": "warn",
+      "count": 0,
+      "time": "actualizado 16:02"
+    },
+    {
+      "name": "BOA ARAGÓN",
+      "type": "Web Scraping",
+      "status": "warn",
+      "count": 0,
+      "time": "actualizado 16:02"
+    }
+  ],
+  "keywords": [
+    {
+      "name": "eficiencia energética",
+      "count": 14,
+      "color": "var(--accent)"
+    },
+    {
+      "name": "transición energética",
+      "count": 4,
+      "color": "var(--accent)"
+    },
+    {
+      "name": "hidrógeno",
+      "count": 3,
+      "color": "var(--teal)"
+    },
+    {
+      "name": "economía baja en carbono",
+      "count": 1,
+      "color": "var(--accent)"
+    }
+  ]
+}
