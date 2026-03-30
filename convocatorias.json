@@ -1,8 +1,106 @@
 {
-  "last_updated": "2026-03-29T21:00:49.643573+00:00",
+  "last_updated": "2026-03-30T09:15:31.274811+00:00",
   "convocatorias": [
     {
-      "id": 6,
+      "id": 19,
+      "source": "HORIZON EUROPE",
+      "title": "Full-scale demonstration of heat upgrade solutions in industrial processes",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Based on the results of the project, at least one industrial sector with a significant heating demand in the EU and Associated Countries develops pathways and business models to measurably increase the recovery and upgrade of locally available heat for covering process needs and significantly or totally phasing out of fossil fuel use, while preserving or enhancing its global competitiveness. Measurable improvement of renewable and/or industrial excess/waste heat recovery and upgrade solutions, possibly combined with thermal and/or electrical energy storage, in terms of energy efficiency, flexibility of electrical demand, climate and environment protection, reliability and safety, physica",
+      "match": 78,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa grande cliente del sector cerámico/metalúrgico como integradora",
+      "deadline": 169,
+      "deadline_date": "2026-09-15",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D4-08",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee",
+        "desc",
+        "horn"
+      ],
+      "summary": "Excelente encaje. La convocatoria busca demostraciones a escala completa de recuperación y mejora de calor residual en procesos industriales de alta temperatura, alineado directamente con el core de Kalfrisa (recuperación de calor en hornos >400°C). El scope abarca descarbonización y eficiencia energética industrial, sectores clave para la cartera de Kalfrisa.",
+      "action": "Participar activamente. Posicionar soluciones de recuperación de calor residual en hornos industriales (cerámica, metalurgia) como demostración full-scale. Buscar socio tractora cliente en sector cerámico/metalúrgico y centro tecnológico como validador independiente.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 88
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 80
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 85
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 68
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency",
+        "waste heat"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 21,
+      "source": "HORIZON EUROPE",
+      "title": "Demonstration of industrial excess/waste heat conversion to mechanical or electrical power",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Based on the results of the project, at least one industrial sector with a significant heating demand in the EU and Associated Countries develops pathways and business models to measurably increase the industrial excess/waste heat recovery and conversion to power. Measurable improvement of industrial excess/waste heat recovery and conversion to power, possibly combined with energy storage, in terms of energy efficiency, flexibility of electricity production, climate and environment protection, reliability and safety, physical and cyber security, and profitability. Scope: Better use of process excess/waste heat represents a significant source of energy savings for industries. The conversi",
+      "match": 78,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa industrial sectorial (cerámica, siderurgia, vidrio)",
+      "deadline": 534,
+      "deadline_date": "2027-09-15",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-09",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee",
+        "desc",
+        "horn"
+      ],
+      "summary": "Excelente encaje con el core de Kalfrisa: recuperación de calor residual en procesos térmicos industriales de alta temperatura. La convocatoria busca demostración de conversión de calor residual a potencia mecánica/eléctrica en sectores industriales significativos, alineado directamente con tecnologías de recuperación y sistemas de control de Kalfrisa. El TRL requerido (5-8) coincide con la experiencia operativa de la empresa.",
+      "action": "Preparar propuesta como partner tecnológico en consorcio liderado por empresa sectorial (cerámica, siderurgia o vidrio) con demostración en horno real. Enfatizar recuperadores de calor residual acoplados a sistemas ORC o ciclos similares para conversión a potencia, con validación en entorno relevante (TRL 7).",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 85
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 80
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 88
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 68
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency",
+        "waste heat"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 32,
       "source": "IDAE",
       "title": "Programa H2 Pioneros. Ayudas para proyectos pioneros y singulares de hidrógeno renovable",
       "description": "",
@@ -12,7 +110,7 @@
       "motivo_descarte": "",
       "trl_min": 4,
       "trl_max": 7,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar) o empresa tractora del sector industrial (cerámica, siderurgia)",
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + universidad (Unizar) + empresa cliente sector cerámica/siderúrgico",
       "deadline": 30,
       "deadline_date": "",
       "budget": "Ver convocatoria",
@@ -25,8 +123,8 @@
         "emis",
         "horn"
       ],
-      "summary": "Excelente alineación: H2 Pioneros financia proyectos de hidrógeno renovable en aplicaciones industriales, core de Kalfrisa. Los quemadores H2-ready y sistemas de control en hornos industriales de alta temperatura encajan directamente. TRL 4-7 coincide con la capacidad actual.",
-      "action": "Solicitar acceso a bases y pliego completo para validar: (1) sectores elegibles (cerámica, metalurgia, vidrio son estratégicos); (2) definición de 'pionero' (si requiere >75% H2 o mezcla variable); (3) límites de cofinanciación CDTI/IDAE simultánea. Preparar expediente con demo en horno cerámica o cliente siderúrgico.",
+      "summary": "Encaje excelente: Kalfrisa posee tecnologías H2-ready y quemadores industriales para alta temperatura que coinciden directamente con objetivos de H2 renovable en procesos térmicos. La convocatoria IDAE H2 Pioneros está orientada a demostradores industriales en TRL 4-7, rango operativo de Kalfrisa. El proyecto debe enfocarse en validación de quemadores H2 100% en aplicaciones reales (cerámica, siderurgia) con recuperación de calor integrada.",
+      "action": "Presentar solicitud enfocada en demostrador de quemador H2-ready + control de emisiones en horno industrial de cliente real (sector cerámica o siderúrgico). Integrar consorcio con centro tecnológico para caracterización de combustión H2 y universidad para modelado de eficiencia térmica.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -42,7 +140,7 @@
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 65
+          "val": 75
         }
       ],
       "keywords_found": [
@@ -51,17 +149,17 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 7,
+      "id": 33,
       "source": "IDAE",
       "title": "Programas de ayuda a la cadena de valor innovadora del hidrógeno renovable en el marco del Plan de Recuperación, Transformación y Resiliencia",
       "description": "",
-      "match": 78,
+      "match": 75,
       "priority": "high",
       "descartada": false,
       "motivo_descarte": "",
       "trl_min": 4,
       "trl_max": 8,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + universidad (Unizar) + empresa industrial tractora del sector cerámico o metalúrgico",
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa tractora energética o industrial integrada",
       "deadline": 30,
       "deadline_date": "",
       "budget": "Ver convocatoria",
@@ -70,16 +168,16 @@
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [
         "h2",
-        "horn",
         "desc",
+        "horn",
         "emis"
       ],
-      "summary": "Convocatoria de alto encaje: financia directamente la cadena de valor del hidrógeno renovable en aplicaciones industriales, alineada con las tecnologías core de Kalfrisa (quemadores H2-ready, recuperación de calor, control de emisiones). El marco PRTR garantiza financiación estructurada para proyectos de validación en entornos relevantes (TRL 4-7) en sectores cliente clave de Kalfrisa (cerámica, siderurgia, vidrio). Posición de Kalfrisa como proveedor de soluciones térmicas para transición H2 en industria de alta temperatura es estratégicamente alineada.",
-      "action": "Contactar inmediatamente con IDAE para confirmar bases de la convocatoria. Preparar propuesta de proyecto enfocado en validación de quemadores H2 con recuperación de calor en horno cerámico o de tratamiento térmico (caso piloto). Constituir consorcio con centro tecnológico (lead técnico en H2) y cliente industrial de referencia.",
+      "summary": "Convocatoria IDAE de hidrógeno renovable con excelente alineación estratégica con el core de Kalfrisa (quemadores H2-ready, descarbonización de hornos industriales). El rango TRL 4-8 encaja perfectamente con la capacidad actual de la empresa (TRL 4-7). Alto potencial si se enfoca en aplicaciones a procesos térmicos industriales de alta temperatura (cerámica, siderurgia, vidrio).",
+      "action": "Solicitar especificaciones completas de la convocatoria (bases, elegibilidad de pequeñas empresas, cofinanciación, duración). Preparar propuesta centrada en: validación de quemadores H2 100% en hornos cerámica/vidrio, integración con sistemas de control/IIoT, demostración en entorno relevante. Consorciar con centro tecnológico aragonés para mayor tracción.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 92
+          "val": 90
         },
         {
           "name": "Capacidad de consorcio",
@@ -91,7 +189,7 @@
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 68
+          "val": 70
         }
       ],
       "keywords_found": [
@@ -100,117 +198,17 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 9,
-      "source": "IDAE",
-      "title": "Concesión directa CCAA de las ayudas para actuaciones de eficiencia energética en PYME y gran empresa del sector industrial",
-      "description": "",
-      "match": 72,
-      "priority": "high",
-      "descartada": false,
-      "motivo_descarte": "",
-      "trl_min": 5,
-      "trl_max": 8,
-      "socio_consorcio": "PYME industrial complementaria o centro tecnológico (ITAINNOVA, CIRCE) para validación de eficiencia en cliente final",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
-      "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/concesion-directa-ccaa-de-las-0",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
-      "tags": [
-        "ee",
-        "horn",
-        "emis",
-        "h2",
-        "desc"
-      ],
-      "summary": "La convocatoria IDAE de eficiencia energética industrial encaja directamente con el core de Kalfrisa en procesos térmicos de alta temperatura (hornos industriales). El rango TRL estimado (5-8) se alinea bien con la capacidad operativa de la empresa. El carácter de 'concesión directa CCAA' limita competencia y favorece empresas aragonesas con track record.",
-      "action": "Solicitar información detallada sobre bases regulatorias autonómicas, elegibilidad de tecnologías H2-ready y sistemas de control de emisiones acoplados. Preparar candidatura enfocada en proyectos de recuperación de calor residual o tratamiento de COVs en clientes de cerámica/siderurgia con medición verificable de ahorro energético.",
-      "dims": [
-        {
-          "name": "Alineación tecnológica",
-          "val": 85
-        },
-        {
-          "name": "Capacidad de consorcio",
-          "val": 78
-        },
-        {
-          "name": "Encaje TRL",
-          "val": 80
-        },
-        {
-          "name": "Oportunidad estratégica",
-          "val": 62
-        }
-      ],
-      "keywords_found": [
-        "eficiencia energética"
-      ],
-      "source_type": "Web Scraping"
-    },
-    {
-      "id": 10,
-      "source": "IDAE",
-      "title": "Eficiencia energética en PYME y gran empresa del sector industrial. Convocatorias en las Comunidades Autónomas",
-      "description": "",
-      "match": 72,
-      "priority": "high",
-      "descartada": false,
-      "motivo_descarte": "",
-      "trl_min": 4,
-      "trl_max": 7,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + universidad (Unizar) + empresa industrial cliente (cerámica, siderurgia)",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
-      "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/concesion-directa-ccaa-de-las",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
-      "tags": [
-        "ee",
-        "horn",
-        "emis",
-        "h2",
-        "desc"
-      ],
-      "summary": "Convocatoria IDAE de eficiencia energética en industria de alto encaje con Kalfrisa. Aplica directamente a procesos térmicos industriales (hornos, recuperación de calor residual, control de emisiones) en sectores cliente core (cerámica, metalurgia, química). Rango TRL 4-7 es exacto al perfil de validación en entorno relevante.",
-      "action": "Presentar proyecto de demostración en horno industrial real (cerámica o siderurgia) integrando recuperación de calor residual + quemador H2-ready + monitorización IIoT. Liderar con ITAINNOVA o CIRCE como socio tecnológico validador.",
-      "dims": [
-        {
-          "name": "Alineación tecnológica",
-          "val": 85
-        },
-        {
-          "name": "Capacidad de consorcio",
-          "val": 80
-        },
-        {
-          "name": "Encaje TRL",
-          "val": 95
-        },
-        {
-          "name": "Oportunidad estratégica",
-          "val": 60
-        }
-      ],
-      "keywords_found": [
-        "eficiencia energética"
-      ],
-      "source_type": "Web Scraping"
-    },
-    {
-      "id": 11,
+      "id": 37,
       "source": "IDAE",
       "title": "Segunda convocatoria del Programa de ayudas para actuaciones de eficiencia energética en PYME y gran empresa del sector industrial (FNEE)",
       "description": "",
-      "match": 72,
+      "match": 75,
       "priority": "high",
       "descartada": false,
       "motivo_descarte": "",
       "trl_min": 5,
       "trl_max": 8,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) o empresa industrial tractora del sector cerámico/metalúrgico",
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + empresa grande sectorial (cerámica, vidrio o siderurgia)",
       "deadline": 30,
       "deadline_date": "",
       "budget": "Ver convocatoria",
@@ -219,12 +217,12 @@
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [
         "ee",
-        "emis",
         "horn",
+        "emis",
         "desc"
       ],
-      "summary": "Convocatoria IDAE alineada directamente con el core de Kalfrisa en eficiencia energética industrial. El programa financia actuaciones en pymes y grandes empresas del sector industrial, coincidiendo con los sectores cliente (cerámica, siderurgia, química). El TRL esperado (5-8) encaja bien con la capacidad actual de validación en entorno relevante.",
-      "action": "Analizar bases completas para determinar: (1) si acepta soluciones de recuperación térmica y control de emisiones o solo medidas genéricas; (2) cofinanciación mínima requerida; (3) elegibilidad de cliente final como socio o si requiere PyME tractora. Lanzar prospección inmediata con clientes en cerámica/metal para identificar proyectos de demostración con cofinanciación garantizada.",
+      "summary": "La convocatoria FNEE de IDAE es de encaje directo: financia proyectos de eficiencia energética en sector industrial, alineado con el core de Kalfrisa en recuperación de calor y control de emisiones en hornos de alta temperatura. El rango de TRL (5-8) es compatible con la capacidad operacional de Kalfrisa (TRL 4-7), permitiendo proyectos de validación en entorno relevante e implementación piloto. La experiencia previa de Kalfrisa con IDAE y consorcios regionales es una ventaja decisiva.",
+      "action": "Priorizar participación como socio tecnológico o coordinador en proyectos dirigidos a industria cerámica, vidrio o metalurgia. Buscar empresa tracto-ra del sector como coordinador si Kalfrisa actúa como proveedor de soluciones.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -240,155 +238,7 @@
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 55
-        }
-      ],
-      "keywords_found": [
-        "eficiencia energética"
-      ],
-      "source_type": "Web Scraping"
-    },
-    {
-      "id": 5,
-      "source": "IDAE",
-      "title": "Nuevos modelos de negocio para la transición energética, dentro del PERTE ERHA",
-      "description": "",
-      "match": 65,
-      "priority": "medium",
-      "descartada": false,
-      "motivo_descarte": "",
-      "trl_min": 5,
-      "trl_max": 8,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), empresa grande industrial tractora, universidades especializadas en transición energética",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
-      "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/nuevos-modelos-de-negocio-para-la-transicion-energetica-dentro-del-perte-erha",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
-      "tags": [
-        "h2",
-        "ee",
-        "desc",
-        "emis",
-        "horn"
-      ],
-      "summary": "La convocatoria de IDAE sobre modelos de negocio para transición energética en el PERTE ERHA tiene potencial moderado para Kalfrisa. Encaja directamente con las soluciones de eficiencia energética y descarbonización industrial, especialmente en hidrógeno como combustible. Sin embargo, el enfoque en 'modelos de negocio' puede requerir mayor énfasis en aspectos comerciales y financieros que en I+D tecnológica pura, reduciendo el match con el core técnico de la empresa.",
-      "action": "Investigar con urgencia los bases de la convocatoria (TRL específico requerido, porcentaje de inversión en negocio vs. I+D, elegibilidad de SME como coordinadora). Si permite TRL 5-7 y acepta liderazgo de empresa industrial, presentar proyecto sobre modelos de negocio para quemadores H2 100% o sistemas de recuperación de calor en industrias clave (cerámica, siderurgia). Considerar consorcio con centro tecnológico como socio técnico.",
-      "dims": [
-        {
-          "name": "Alineación tecnológica",
-          "val": 75
-        },
-        {
-          "name": "Capacidad de consorcio",
-          "val": 80
-        },
-        {
-          "name": "Encaje TRL",
-          "val": 70
-        },
-        {
-          "name": "Oportunidad estratégica",
-          "val": 50
-        }
-      ],
-      "keywords_found": [
-        "transición energética"
-      ],
-      "source_type": "Web Scraping"
-    },
-    {
-      "id": 8,
-      "source": "IDAE",
-      "title": "Para eficiencia energética en la industria",
-      "description": "",
-      "match": 65,
-      "priority": "medium",
-      "descartada": false,
-      "motivo_descarte": "",
-      "trl_min": 4,
-      "trl_max": 8,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + universidad (Unizar) + empresa industrial sectorial",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
-      "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
-      "tags": [
-        "ee",
-        "horn",
-        "desc",
-        "emis"
-      ],
-      "summary": "La convocatoria IDAE de eficiencia energética industrial encaja directamente con el core de Kalfrisa (recuperación de calor, tratamiento de emisiones, hornos industriales). Sin embargo, la descripción genérica ('Keywords detectadas: eficiencia energética') impide evaluación precisa de sectores/tecnologías específicas financiadas, requisitos de TRL exactos y condiciones de elegibilidad. IDAE típicamente financia soluciones de demostración (TRL 6-7) en industria manufacturera, lo que es compatible con la capacidad de Kalfrisa.",
-      "action": "Solicitar bases completas de IDAE para confirmar: (1) inclusión explícita de procesos térmicos industriales >400°C, (2) elegibilidad de postcombustión y recuperación de calor residual, (3) rango TRL aceptado, (4) si H2-ready entra en objetivos de descarbonización. Luego evaluar con match refinado.",
-      "dims": [
-        {
-          "name": "Alineación tecnológica",
-          "val": 75
-        },
-        {
-          "name": "Capacidad de consorcio",
-          "val": 85
-        },
-        {
-          "name": "Encaje TRL",
-          "val": 80
-        },
-        {
-          "name": "Oportunidad estratégica",
-          "val": 50
-        }
-      ],
-      "keywords_found": [
-        "eficiencia energética"
-      ],
-      "source_type": "Web Scraping"
-    },
-    {
-      "id": 13,
-      "source": "IDAE",
-      "title": "Fondo Nacional de Eficiencia Energética",
-      "description": "",
-      "match": 45,
-      "priority": "medium",
-      "descartada": false,
-      "motivo_descarte": "",
-      "trl_min": 5,
-      "trl_max": 8,
-      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + empresa industrial sectorial",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
-      "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/fondo-nacional-de-eficiencia-energetica",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
-      "tags": [
-        "ee",
-        "horn",
-        "desc",
-        "emis"
-      ],
-      "summary": "El Fondo Nacional de Eficiencia Energética de IDAE tiene potencial encaje con tecnologías core de Kalfrisa en recuperación de calor y control de emisiones en hornos industriales. Sin embargo, la convocatoria IDAE típicamente financia mejora de eficiencia genérica (sin especificidad en alta temperatura industrial) y tiende a priorizar auditorías y equipamiento estándar antes que validación tecnológica avanzada. El encaje depende críticamente de la base regulatoria y los sectores elegibles en la convocatoria específica 2024-2025.",
-      "action": "Requiere consulta directa con IDAE sobre: (1) inclusión explícita de procesos térmicos industriales >400°C, (2) aceptación de proyectos en TRL 5-7 con validación en entorno relevante, (3) elegibilidad de consorcios con SME innovadora + centro tecnológico. Si se confirma, priorizar proyectos de eficiencia en cerámica o siderurgia con componente de descarbonización.",
-      "dims": [
-        {
-          "name": "Alineación tecnológica",
           "val": 60
-        },
-        {
-          "name": "Capacidad de consorcio",
-          "val": 85
-        },
-        {
-          "name": "Encaje TRL",
-          "val": 70
-        },
-        {
-          "name": "Oportunidad estratégica",
-          "val": 35
         }
       ],
       "keywords_found": [
@@ -398,45 +248,97 @@
     },
     {
       "id": 14,
-      "source": "IDAE",
-      "title": "Ingreso aportaciones al Fondo Nacional de Eficiencia Energética 2026",
-      "description": "",
-      "match": 35,
-      "priority": "low",
+      "source": "HORIZON EUROPE",
+      "title": "Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
+      "description": "Expected Outcome: A significant decarbonisation of processes (measured by the reduction of GHG emissions from the overall system) with broad applicability and economic viability. Facilitation of the transition from fossil-based energy inputs for: low/medium thermal energy demands by introducing renewable-based alternatives and heat upgrading. High-temperature processes, by innovative technologies for electrified and hybrid high-temperature processes, high temperature energy storage. Clean energy usage is given a boost through innovative advanced materials, system concepts and technologies for energy integration and energy storage, supporting resilience against energy supply variations Combination of significant energy savings and integrated management of energy systems and production proce",
+      "match": 72,
+      "priority": "high",
       "descartada": false,
       "motivo_descarte": "",
-      "trl_min": 6,
-      "trl_max": 9,
-      "socio_consorcio": "IDAE como facilitador, empresas industriales tractoras (cerámica, siderurgia)",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
+      "trl_min": 4,
+      "trl_max": 7,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa grande tractora sector cerámico/siderúrgico",
+      "deadline": 309,
+      "deadline_date": "2027-02-02",
+      "budget": "Presupuesto 2027",
       "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/ingreso-aportaciones-al-fondo-nacional-de-eficiencia-energetica-2026",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-02-MAT-PROD-32-two-stage",
+      "org": "Comisión Europea / Horizon Europe",
       "tags": [
+        "h2",
         "ee",
         "desc",
         "horn"
       ],
-      "summary": "La convocatoria IDAE de Fondo Nacional de Eficiencia Energética 2026 tiene vocación generalista y de financiación de inversión en eficiencia, no de I+D industrial. Aunque Kalfrisa opera en eficiencia energética térmica industrial, esta convocatoria típicamente financia auditorías, retrofits y mejoras operacionales (TRL 8-9) en empresas usuarias, no soluciones tecnológicas innovadoras en TRL 4-7 que caracterizan a Kalfrisa.",
-      "action": "Solicitar información detallada sobre si existe línea específica para proveedores tecnológicos de soluciones de eficiencia en procesos térmicos industriales de alta temperatura. Si es financiación directa a inversión en equipos (sin I+D), descartar y priorizar convocatorias de CDTI, Horizonte Europa o autonómicas de I+D.",
+      "summary": "Excelente encaje. La convocatoria busca descarbonización de procesos industriales térmicos de alta temperatura mediante tecnologías innovadoras (electrificación híbrida, almacenamiento térmico, integración energética). Kalfrisa tiene expertise core en recuperación de calor, quemadores H2-ready y tratamiento de emisiones en hornos industriales >400°C. El rango TRL 4-7 coincide perfectamente con el perfil de validación en entorno relevante que demanda Horizon Europe.",
+      "action": "Preparar propuesta enfocada en soluciones de alta temperatura (>400°C) para cerámica/metalurgia con hibridación H2/electricidad y almacenamiento térmico. Liderar en consorcio con centro tecnológico regional y empresa industrial grande como cliente piloto.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 60
+          "val": 85
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 55
+          "val": 78
         },
         {
           "name": "Encaje TRL",
-          "val": 25
+          "val": 95
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 30
+          "val": 62
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency",
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 35,
+      "source": "IDAE",
+      "title": "Concesión directa CCAA de las ayudas para actuaciones de eficiencia energética en PYME y gran empresa del sector industrial",
+      "description": "",
+      "match": 72,
+      "priority": "high",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "PYME industrial cliente (cerámica, siderurgia, vidrio) como socio tecnológico beneficiario; opcionalmente centro tecnológico (ITAINNOVA, CIRCE) para validación",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/concesion-directa-ccaa-de-las-0",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "desc",
+        "emis",
+        "h2"
+      ],
+      "summary": "Encaje alto. La convocatoria IDAE de eficiencia energética industrial es directamente aplicable a la cartera tecnológica de Kalfrisa (recuperación de calor, control de emisiones, quemadores H2-ready en hornos >400°C). El TRL requerido (6-9, soluciones validadas a escala industrial) coincide con la capacidad demostrada de Kalfrisa en demos y proyectos CDTI previos.",
+      "action": "Presentar como cosolicitante o socio técnico en actuaciones de PYME/gran empresa de cerámica, siderurgia o química con hornos ineficientes. Priorizar proyectos que combinen recuperación de calor + transición H2 para maximizar impacto descarbonización.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 85
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 80
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 90
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 65
         }
       ],
       "keywords_found": [
@@ -445,29 +347,274 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 19,
-      "source": "IDAE",
-      "title": "Plan Nacional de Acción de Eficiencia Energética 2017-2020",
-      "description": "",
-      "match": 35,
-      "priority": "low",
+      "id": 15,
+      "source": "HORIZON EUROPE",
+      "title": "Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan  (Research and Innovation Action)",
+      "description": "Expected Outcome: Proposals should describe a credible pathway from their project results and outcomes towards the expected impact of this Destination; Enable the acceleration of the market uptake of groundbreaking innovations in the decarbonisation of the chemical industries as well as alternatives to substances of concern. Scope: This open topic aims to speed up the adoption of new, groundbreaking innovations (starting TRL 4 ) as part of the Chemical Industry Action Plan, in the areas of decarbonisation of energy intensive industries, circular economy or breakthrough production technologies; as well as development of alternatives (new chemical substances, advanced materials or technologies) to substances of concern. Application of the SSbD Framework should be considered as appropriate.",
+      "match": 65,
+      "priority": "medium",
       "descartada": false,
       "motivo_descarte": "",
-      "trl_min": 6,
-      "trl_max": 9,
-      "socio_consorcio": "Empresa tractora grande del sector industrial + centro tecnológico autonómico",
+      "trl_min": 4,
+      "trl_max": 7,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + Universidad (Unizar) + Empresa química/petroquímica o cerámica como socio industrial tractora",
+      "deadline": 309,
+      "deadline_date": "2027-02-02",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-62",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc",
+        "h2",
+        "ee",
+        "emis"
+      ],
+      "summary": "La convocatoria Horizon Europe de descarbonización de industrias químicas encaja directamente con las tecnologías core de Kalfrisa (recuperación de calor, control de emisiones, hidrógeno) y su experiencia en procesos térmicos industriales de alta temperatura. El rango TRL 4+ se alinea perfectamente con la capacidad operativa de la empresa. Sin embargo, el alcance es más amplio que Kalfrisa (no se limita a térmica industrial) y requiere demostrar pathways de impacto comercial creíbles.",
+      "action": "Presentar propuesta enfocada en descarbonización de hornos de calcinación/reactores químicos mediante recuperación térmica + quemadores H2-ready. Constituir consorcio con socio químico/petroquímico de relevancia europea para validar solución en entorno relevante (TRL 6-7).",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 78
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 82
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 95
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 45
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 31,
+      "source": "IDAE",
+      "title": "Nuevos modelos de negocio para la transición energética, dentro del PERTE ERHA",
+      "description": "",
+      "match": 65,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE), universidad (Unizar), empresa integradora de soluciones energéticas",
       "deadline": 30,
       "deadline_date": "",
       "budget": "Ver convocatoria",
       "budget_raw": 0,
-      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/plan-nacional-de-accion-de-eficiencia-energetica-2017-2020",
+      "url": "https://www.idae.es/ayudas-y-financiacion/nuevos-modelos-de-negocio-para-la-transicion-energetica-dentro-del-perte-erha",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "h2",
+        "desc",
+        "horn",
+        "emis"
+      ],
+      "summary": "La convocatoria PERTE ERHA sobre modelos de negocio para transición energética tiene potencial medio-alto para Kalfrisa si se interpreta como escalado de soluciones térmicas industriales H2-ready y descarbonización de hornos. Sin embargo, el título genérico sugiere posible sesgo hacia renovables/electricidad o eficiencia genérica, sectores de exclusión. Requiere validación de bases específicas.",
+      "action": "Solicitar bases técnicas detalladas al IDAE para confirmar si acepta proyectos de transición a H2 en procesos térmicos industriales (hornos >400°C) y modelos de negocio asociados. Si incluye este scope, presentar proyecto de demostración de quemador H2-ready con validación en sector cerámica o siderurgia.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 70
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 55
+        }
+      ],
+      "keywords_found": [
+        "transición energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 34,
+      "source": "IDAE",
+      "title": "Para eficiencia energética en la industria",
+      "description": "",
+      "match": 65,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 4,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + universidad (Unizar) + empresa industrial cliente (cerámica, siderurgia)",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria",
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [
         "ee",
+        "desc",
+        "emis",
+        "horn",
+        "h2"
+      ],
+      "summary": "Convocatoria IDAE de eficiencia energética industrial con potencial moderado-alto para Kalfrisa. Alineación clara con tecnologías core (recuperación calor residual, control emisiones en procesos térmicos >400°C), sectores cliente establecidos y experiencia previa IDAE. Limitación: falta claridad en scope específico (puede incluir medidas genéricas de bajo TRL o sectores terciarios excluidos si no se define bien).",
+      "action": "Solicitar bases detalladas para confirmar: (1) enfoque en procesos térmicos industriales vs. eficiencia genérica, (2) rango TRL esperado, (3) elegibilidad de quemadores H2-ready y monitorización IIoT. Si aplica a hornos industriales (cerámica, siderurgia, vidrio), preparar propuesta con socio tecnológico fuerte.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 80
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 55
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 36,
+      "source": "IDAE",
+      "title": "Eficiencia energética en PYME y gran empresa del sector industrial. Convocatorias en las Comunidades Autónomas",
+      "description": "",
+      "match": 65,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + empresa industrial tractora del sector cerámico/metalúrgico",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-eficiencia-energetica-en-la-industria/concesion-directa-ccaa-de-las",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "emis",
         "desc"
       ],
-      "summary": "Convocatoria genérica de eficiencia energética (2017-2020, cerrada) con perfil muy amplio que no especifica procesos térmicos industriales de alta temperatura. Aunque Kalfrisa opera en eficiencia energética industrial, la convocatoria histórica no detalla líneas temáticas específicas para hornos, recuperación de calor residual o transición a H2 en combustión industrial. Riesgo alto de sesgo hacia sectores terciarios y HVAC.",
-      "action": "Descartar. Convocatoria cerrada (período 2017-2020) y sin especificidad en tecnologías de horno. Priorizar convocatorias CDTI/IDAE actuales con eje explícito en descarbonización industrial térmica o transición energética en procesos de alta temperatura.",
+      "summary": "La convocatoria de IDAE es genérica en eficiencia energética industrial, lo que alinea parcialmente con las competencias core de Kalfrisa en recuperación de calor y control de emisiones en hornos. Sin embargo, la amplitud sectorial y la ausencia de especificidad en procesos térmicos de alta temperatura limitan el encaje. Kalfrisa puede participar con soluciones demostrables en sus sectores cliente (cerámica, metalurgia, vidrio), pero compitiendo con propuestas más transversales de EE genérica.",
+      "action": "Consultar bases detalladas de la convocatoria autonómica correspondiente (Aragón). Si admite demostradores de recuperación de calor residual o control de emisiones en hornos industriales >400°C, postular con consorcio que incluya cliente industrial del sector cerámico o siderúrgico como beneficiario final.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 60
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 85
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 55
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 13,
+      "source": "HORIZON EUROPE",
+      "title": "Technologies for innovative processing of raw materials (IA)",
+      "description": "Expected Outcome: Increased recovery rates of valuable raw materials, particularly critical raw materials from low grade or complex ores and/or from mining waste; Increased economic performance in terms of higher material-, water-, energy- and cost-efficiency and flexibility in minerals processing and metallurgical processes; and Improved health, safety and environmental performance of the operations throughout the whole life cycle that is considered, including a reduction in waste, wastewater and generation of emissions of air pollutants and a better recovery of resources from generated waste, reducing the environmental footprint and contributing to biodiversity and ecosystems preservation. Scope: Actions should develop and validate / demonstrate pilot scale facility located in the EU int",
+      "match": 45,
+      "priority": "medium",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico especializado en procesamiento mineral (ej: ITAINNOVA, CIRCE), empresa minera o metalúrgica tractora, universidad con departamento metalurgia",
+      "deadline": 309,
+      "deadline_date": "2027-02-02",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-16",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee",
+        "emis",
+        "desc"
+      ],
+      "summary": "La convocatoria es relevante para Kalfrisa únicamente si el proyecto se enfoca en procesos térmicos de alta temperatura en metalurgia y tratamiento de minerales. El encaje es moderado porque la convocatoria prioriza recuperación de materiales críticos y eficiencia en minería, no específicamente en tecnologías de combustión limpias o hidrógeno industrial. La componente energética y de emisiones existe pero es secundaria respecto al objetivo principal de economía circular de materiales.",
+      "action": "Evaluar solo si Kalfrisa puede aportar soluciones de recuperación de calor residual o control de emisiones en hornos de calcinación, tostación o fusión de minerales. Requiere socio minero/metalúrgico fuerte. Si la propuesta es genérica de eficiencia sin énfasis en procesos térmicos a >400°C, descartar.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 55
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 70
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 30
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 12,
+      "source": "HORIZON EUROPE",
+      "title": "Efficient capture / purification / utilisation of CO2 for the production of competitive products (RIA) (Processes4Planet partnership)",
+      "description": "Expected Outcome: Projects are expected to contribute to the following outcomes: Achieve a significant reduction in the production costs of CO2-based products, making them competitive with conventionally produced alternatives. This involves optimising the integration of CO2 capture, purification, and conversion processes. Demonstrate processes that minimize energy consumption during the entire conversion process, leveraging advances in process integration that can shift equilibria and the use of renewable electricity and available heat sources. Contribute to the reduction of carbon emissions by enabling the sustainable use of CO2, supporting circular economy principles through the valorisation of CO2, possibly aligned with CCS. Scope: There are only a few products that can be competitively",
+      "match": 35,
+      "priority": "low",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Centro tecnológico (ITAINNOVA, CIRCE) + Universidad (Unizar) + empresa química/petroquímica",
+      "deadline": 22,
+      "deadline_date": "2026-04-21",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2026-01-MAT-PROD-31",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc",
+        "ee"
+      ],
+      "summary": "La convocatoria se centra en captura, purificación y utilización de CO2 para productos competitivos, con énfasis en integración de procesos y minimización de energía. Aunque Kalfrisa tiene experiencia en recuperación de calor residual y descarbonización en procesos térmicos industriales, el alcance de esta RIA está más orientado a química de conversión de CO2 (síntesis, bioquímica) que a soluciones de eficiencia energética y tratamiento de emisiones propias de su core business.",
+      "action": "Descartar como propuesta principal. Solo considerar si el proyecto pivota hacia integración de calor residual de hornos industriales como fuente térmica para procesos de conversión de CO2, en consorcio con socio químico tractora.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -479,49 +626,50 @@
         },
         {
           "name": "Encaje TRL",
-          "val": 50
+          "val": 60
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 15
+          "val": 20
         }
       ],
       "keywords_found": [
-        "eficiencia energética"
+        "decarbonisation"
       ],
-      "source_type": "Web Scraping"
+      "source_type": "SEDIA API"
     },
     {
-      "id": 15,
-      "source": "IDAE",
-      "title": "Eficiencia Energética",
-      "description": "",
-      "match": 25,
+      "id": 22,
+      "source": "HORIZON EUROPE",
+      "title": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: urban manufacturers significantly increase their resource efficiency through increased circular material use or reduced overall material use per output; urban manufacturers contribute significantly to EU climate, zero pollution, circularity and biodiversity goals by engaging in clean, sustainable and circular business practices; improved knowledge sharing and proliferation of digital tools and methods that facilitate the adoption of circular business practices and enable large-scale diffusion. Scope: The Clean Industrial Deal confirms Europe’s dedication to its decarbonisation goals by offering clear business incentives. It will help create lead markets to boost supply and demand in clea",
+      "match": 35,
       "priority": "low",
-      "descartada": true,
-      "motivo_descarte": "Convocatoria IDAE de 'Eficiencia Energética' genérica sin especificación sectorial. Alto riesgo de orientación hacia edificios, sector terciario o medidas transversales no alineadas con procesos térmicos industriales de alta temperatura. Información insuficiente para validar que no entra en exclusión de 'eficiencia energética en sector no industrial'.",
+      "descartada": false,
+      "motivo_descarte": "",
       "trl_min": 5,
       "trl_max": 8,
-      "socio_consorcio": "",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
+      "socio_consorcio": "Empresa manufacturera urbana de sector industrial (cerámica, metalurgia) + centro tecnológico",
+      "deadline": 374,
+      "deadline_date": "2027-04-08",
+      "budget": "Presupuesto 2027",
       "budget_raw": 0,
-      "url": "https://www.idae.es/tecnologias/eficiencia-energetica",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-02-two-stage",
+      "org": "Comisión Europea / Horizon Europe",
       "tags": [
+        "desc",
         "ee"
       ],
-      "summary": "Sin descripción técnica detallada de la convocatoria, no es posible confirmar que los fondos se dirijan a hornos industriales, sistemas de recuperación de calor residual o descarbonización térmica. Las convocatorias IDAE genéricas de EE suelen priorizar edificios y servicios, sectores de exclusión para Kalfrisa.",
-      "action": "Solicitar bases técnicas completas de la convocatoria antes de invertir recursos. Si se confirma foco en procesos térmicos industriales >400°C o descarbonización de hornos (cerámica, vidrio, siderurgia), revisar con criterio menos restrictivo. En caso contrario, descartar.",
+      "summary": "La convocatoria busca manufactureros urbanos con prácticas circulares y eficiencia de recursos, sin énfasis específico en procesos térmicos de alta temperatura ni tecnologías core de Kalfrisa. Aunque Kalfrisa opera en descarbonización industrial, el foco en 'circular cities' y 'urban manufacturing' genérico no coincide con su especialización en hornos de proceso y recuperación de calor residual.",
+      "action": "Descartar a menos que se identifique un socio manufacturero urbano (cerámica, vidrio) como líder del consorcio donde Kalfrisa aporte soluciones de eficiencia térmica; de lo contrario, priorizar convocatorias enfocadas en tecnologías de proceso térmico industrial.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 15
+          "val": 40
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 70
+          "val": 55
         },
         {
           "name": "Encaje TRL",
@@ -533,19 +681,161 @@
         }
       ],
       "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 23,
+      "source": "HORIZON EUROPE",
+      "title": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: urban manufacturers significantly increase their resource efficiency through increased circular material use or reduced overall material use per output; urban manufacturers contribute significantly to EU climate, zero pollution, circularity and biodiversity goals by engaging in clean, sustainable and circular business practices; improved knowledge sharing and proliferation of digital tools and methods that facilitate the adoption of circular business practices and enable large-scale diffusion. Scope: The Clean Industrial Deal confirms Europe’s dedication to its decarbonisation goals by offering clear business incentives. It will help create lead markets to boost supply and demand in clea",
+      "match": 35,
+      "priority": "low",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "Empresa manufacturera urbana de sector industrial (cerámica, metalurgia) + centro tecnológico",
+      "deadline": 17,
+      "deadline_date": "2026-04-16",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-02-two-stage",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc",
+        "ee"
+      ],
+      "summary": "La convocatoria busca manufactureros urbanos con prácticas circulares y eficiencia de recursos, sin énfasis específico en procesos térmicos de alta temperatura ni tecnologías core de Kalfrisa. Aunque Kalfrisa opera en descarbonización industrial, el foco en 'circular cities' y 'urban manufacturing' genérico no coincide con su especialización en hornos de proceso y recuperación de calor residual.",
+      "action": "Descartar a menos que se identifique un socio manufacturero urbano (cerámica, vidrio) como líder del consorcio donde Kalfrisa aporte soluciones de eficiencia térmica; de lo contrario, priorizar convocatorias enfocadas en tecnologías de proceso térmico industrial.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 40
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 55
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 20
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 39,
+      "source": "IDAE",
+      "title": "Fondo Nacional de Eficiencia Energética",
+      "description": "",
+      "match": 35,
+      "priority": "low",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "Empresa industrial tractora del sector cerámico, siderúrgico o químico como beneficiario final",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/fondo-nacional-de-eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "horn",
+        "desc"
+      ],
+      "summary": "El Fondo Nacional de Eficiencia Energética de IDAE es una convocatoria de financiación de proyectos operacionales/implementación, no de I+D. Exige TRL alto (6-9) y resultados demostrables en planta. Kalfrisa puede participar como proveedor de soluciones tecnológicas para terceros, pero no como beneficiario principal de I+D.",
+      "action": "Descartar como línea de I+D propia. Considerar únicamente como canal comercial indirecto: identificar clientes industriales que presenten sus propios proyectos de eficiencia energética en hornos y posicionar a Kalfrisa como proveedor de tecnología.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 70
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 20
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 25
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 40
+        }
+      ],
+      "keywords_found": [
         "eficiencia energética"
       ],
       "source_type": "Web Scraping"
     },
     {
-      "id": 1,
+      "id": 40,
+      "source": "IDAE",
+      "title": "Ingreso aportaciones al Fondo Nacional de Eficiencia Energética 2026",
+      "description": "",
+      "match": 35,
+      "priority": "low",
+      "descartada": false,
+      "motivo_descarte": "",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/ayudas-y-financiacion/ingreso-aportaciones-al-fondo-nacional-de-eficiencia-energetica-2026",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "desc"
+      ],
+      "summary": "El Fondo Nacional de Eficiencia Energética de IDAE es una línea de financiación de carácter genérico orientada a auditorías energéticas, planes de mejora y retrofit en edificios, transporte y servicios. Aunque Kalfrisa opera en eficiencia energética industrial, la convocatoria no proporciona detalles suficientes sobre si acepta soluciones de recuperación de calor residual en procesos térmicos industriales de alta temperatura. El encaje es marginal sin información sobre instrumentos específicos para I+D en sistemas de postcombustión, quemadores H2-ready o control de emisiones en hornos industriales.",
+      "action": "Solicitar información detallada a IDAE sobre si el Fondo acepta proyectos de I+D en tecnologías de recuperación térmica y control de emisiones en industria cerámica, siderúrgica o química. Si la respuesta es no, descartar. Si es sí, evaluar el TRL máximo aceptado y la cofinanciación requerida antes de candidatura.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 45
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 70
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 25
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 27,
       "source": "IDAE",
       "title": "Subastas de hidrógeno renovable_AaaS",
       "description": "",
-      "match": 18,
+      "match": 25,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria de subastas de hidrógeno renovable AaaS enfocada en modelo de servicio de suministro de H2 como commodity energético, no en desarrollo tecnológico de soluciones industriales térmicas. Kalfrisa desarrolla tecnologías de aplicación del H2 en hornos, no participa en subastas de provisión de combustible.",
+      "motivo_descarte": "La convocatoria 'Subastas de hidrógeno renovable_AaaS' es un mecanismo de compra/comercialización de H2, no de I+D industrial. No financia desarrollo de tecnologías, validación de procesos o equipos, sino transacciones de commodity energético. Fuera del ámbito de I+D que Kalfrisa puede desarrollar.",
       "trl_min": 8,
       "trl_max": 9,
       "socio_consorcio": "",
@@ -559,24 +849,24 @@
         "h2",
         "desc"
       ],
-      "summary": "Aunque el hidrógeno es un eje estratégico de Kalfrisa, esta convocatoria IDAE de subastas AaaS (Hydrogen-as-a-Service) está diseñada para proveedores/distribuidores de hidrógeno renovable, no para desarrolladores de tecnología de aplicación industrial. El TRL requerido (8-9, sistema comercial/operacional) excede significativamente la capacidad de I+D de Kalfrisa (TRL 4-7).",
-      "action": "Descartar. Monitorizar futuras convocatorias IDAE/CDTI de I+D en aplicaciones de H2 en procesos térmicos industriales específicos (ej: quemadores H2 catalíticos, sistemas de mezcla H2/gas natural validados en horno).",
+      "summary": "Aunque Kalfrisa posee tecnología H2-ready (quemadores, sistemas de combustión), esta convocatoria IDAE no es un programa de I+D sino un esquema de subastas para garantizar demanda de H2 renovable. Requiere TRL 8-9 (sistema comercial operativo), muy por encima del TRL 4-7 de Kalfrisa. No hay componente de innovación tecnológica validable.",
+      "action": "Descartar. Monitorizar convocatorias IDAE de demostración o validación de tecnologías de combustión H2 en procesos industriales térmicos (PERTE H2, Estrategia H2, Industria 5.0), que SÍ financian I+D de equipos y sistemas.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 25
+          "val": 40
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 10
+          "val": 0
         },
         {
           "name": "Encaje TRL",
-          "val": 5
+          "val": 10
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 30
+          "val": 25
         }
       ],
       "keywords_found": [
@@ -585,16 +875,433 @@
       "source_type": "Web Scraping"
     },
     {
+      "id": 45,
+      "source": "IDAE",
+      "title": "Plan Nacional de Acción de Eficiencia Energética 2017-2020",
+      "description": "",
+      "match": 25,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria cerrada (2017-2020, vigencia expirada) sin especificación de procesos térmicos industriales de alta temperatura. IDAE 2017-2020 enfatiza eficiencia genérica, auditorías energéticas y retrofit de edificios/servicios, no validación de tecnologías industriales innovadoras en TRL 4-7.",
+      "trl_min": 8,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/plan-nacional-de-accion-de-eficiencia-energetica-2017-2020",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee",
+        "desc"
+      ],
+      "summary": "Aunque IDAE es fuente de financiación conocida por Kalfrisa, esta convocatoria específica (Plan 2017-2020) está orientada a implementación de medidas de eficiencia estándar en sectores generales, no a I+D de tecnologías innovadoras de postcombustión, recuperación térmica o quemadores H2-ready. El rango TRL demandado (comercial-despliegue) no coincide con la capacidad core de Kalfrisa (TRL 4-7).",
+      "action": "Descartar. Buscar convocatorias IDAE vigentes de I+D y demostradores industriales (tipo PERTE Descarbonización, Planes de Innovación CDTI) que financien validación de tecnologías de transición energética en hornos y procesos térmicos.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 15
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 10
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 20
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 26,
+      "source": "HORIZON EUROPE",
+      "title": "Increasing the circularity of bio-based sector: upcycling and recycling for higher value and environmental benefits",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: European industry’s competitiveness, decarbonisation, and strategic autonomy are enhanced through the development and deployment of safe, sustainable, circular and bio-based value chains; improved climate change adaptation and mitigation and overall environmental sustainability, as well as higher resource efficiency, through application of biotechnologies and industrial symbiosis, and recovery of biological materials, water and energy. Scope: The projects under this topic are relevant to the EU policies related to the Commission communication on: Building the future with nature: Boosting Biotechnology and Biomanufacturing in the EU, the Life Sciences Strategy, the EU Biotech Act, Clean I",
+      "match": 18,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria se centra en cadenas de valor bio-based, biotecnologías y simbiosis industrial aplicadas a sectores de bioeconomía circular. No aborda procesos térmicos industriales de alta temperatura ni tecnologías core de Kalfrisa (recuperación de calor, tratamiento de emisiones en hornos, quemadores H2). El término 'decarbonisation' es genérico y no vinculante; el scope real excluye la manufactura térmica convencional.",
+      "trl_min": 4,
+      "trl_max": 7,
+      "socio_consorcio": "",
+      "deadline": 541,
+      "deadline_date": "2027-09-22",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-09",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc"
+      ],
+      "summary": "Aunque la convocatoria menciona decarbonización y valor industrial, está diseñada para biotecnologías, materiales bio-based y economía circular de biomasa, no para eficiencia térmica en hornos industriales. Kalfrisa carece de experiencia en bioeconomía, fermentación o procesamiento de recursos biológicos. El desajuste tecnológico es fundamental.",
+      "action": "Descartar. No hay oportunidad de adaptación creíble del portfolio de Kalfrisa a este ámbito de biotecnologías y materiales bio-based.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 25
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
       "id": 2,
+      "source": "HORIZON EUROPE",
+      "title": "BIM-based processes and digital twins for facilitating and optimising circular energy renovation (Built4People Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Reduced buildings construction and renovation time and costs. Increased buildings material reuse and recycling. Improvement of buildings performance (energy, sustainability including whole life-cycle carbon and the potential to store carbon in built works, comfort, health and well-being, and accessibility). Enhanced, interoperable and accessible buildings information across the lifecycle. Improvement of interoperability with existing Building Information Modelling (BIM) and Digital Twin solutions. Broader application of BIM and Digital Twin solutions, in particular within SMEs. Scope: To improve Building Information Modelling and Digital Twinning over the full life cycle of buildings, in",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria enfocada exclusivamente en eficiencia energética de edificios (construcción y renovación), sector explícitamente excluido del perfil de Kalfrisa. Sin componente de procesos térmicos industriales de alta temperatura.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 0,
+      "deadline_date": "2025-02-03",
+      "budget": "Presupuesto 2024",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2024-D4-02-03.json",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Built4People es una convocatoria dedicada a BIM y gemelos digitales para el sector de construcción y renovación de edificios, con énfasis en circularidad de materiales y confort residencial. Kalfrisa opera en procesos térmicos industriales (hornos, postcombustión, quemadores H2), no en eficiencia energética de edificios, por lo que la alineación tecnológica es nula.",
+      "action": "Descartar. La convocatoria pertenece explícitamente al campo de edificios residenciales y terciarios, incluido en los criterios de exclusión absoluta de Kalfrisa. No hay aplicación industrial térmica relevante.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 3,
+      "source": "HORIZON EUROPE",
+      "title": "Robotics and other automated solutions for construction, renovation and maintenance in a sustainable built environment (Built4People Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Reduction of construction and renovation time on-site (at least 40% reduction). Reduction of errors in construction and renovation works. Improved resource efficiency. Reduction of construction and renovation costs. Reduction of greenhouse gas emissions resulting from, and improved energy efficiency of the works on-site. Reduced environmental impact of construction works, including pollution, particulate matter [1] and noise, in the immediate vicinity. Reduction of waste generated from the works on-site. Scope: The transformation of the built environment should take place in a way that minimises the environmental impact of the works themselves. With the increasing rollout of highly energ",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria se centra en automatización y robótica para construcción y renovación del entorno construido (sector terciario/residencial), que está explícitamente excluido del perfil de Kalfrisa. No hay aplicación a procesos térmicos industriales de alta temperatura.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 0,
+      "deadline_date": "2025-02-03",
+      "budget": "Presupuesto 2024",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2024-D4-02-02.json",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [],
+      "summary": "Aunque la convocatoria menciona 'energy efficiency', su alcance es exclusivamente el sector de construcción y renovación de edificios, ajeno a la industrial térmica. Kalfrisa no tiene capacidad operativa ni experiencia en robótica de obra ni en edificios, siendo su especialidad hornos industriales de alta temperatura.",
+      "action": "Descartar sin ambigüedad. No existe conexión entre robotización de construcción y tecnologías core de Kalfrisa en procesos térmicos industriales.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 5,
+      "source": "HORIZON EUROPE",
+      "title": "Onboard renewable energy solutions and energy saving measures to reduce the fuel consumption of ships by at least 55% (ZEWT Partnership)",
+      "description": "Expected Outcome: Project’s results are expected to contribute to the following expected outcomes: Full-scale demonstration of the combined solutions aiming to reduce ship GHG intensity and energy savings by at least 55%, compared to 2008 levels. Development of a standardized framework to verify improvements stemming from energy efficiency measures and standardized interfacing with certification of renewable energy solutions to strengthen the implementation of FuelEU Maritime. Explore and establish assessment criteria, and sea-trial procedures for the combination of solutions. Adapt digital solutions towards standardised interface layers (hardware and software) to introduce data-driven optimisation and seamless integration. Facilitate the retrofitting of existing vessels with zero emission",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Transporte marítimo excluido explícitamente del perfil. La convocatoria se centra en retrofitting de buques y soluciones onboard, sectores fuera del alcance industrial térmico de Kalfrisa (hornos, calderas, procesos químicos terrestres).",
+      "trl_min": 7,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 380,
+      "deadline_date": "2027-04-14",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-14",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc",
+        "h2"
+      ],
+      "summary": "Aunque la convocatoria aborda descarbonización y eficiencia energética con potencial de integración de H2, está dirigida exclusivamente al sector marítimo (retrofitting de buques). Kalfrisa carece de experiencia operacional, clientes y tecnologías adaptadas a sistemas propulsivos y energéticos navales. El enfoque está en soluciones onboard genéricas, no en procesos térmicos industriales de alta temperatura.",
+      "action": "Descartar sin análisis de consorcio. No hay oportunidad de valor agregado para Kalfrisa ni encaje sectorial admisible.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 20
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency",
+        "decarbonization",
+        "NOx"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 8,
+      "source": "HORIZON EUROPE",
+      "title": "Assessing the effect of airport operations on air quality and noise in nearby communities",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Assessment of the impact of airport operations on air quality and water bodies (including biodiversity) through air quality measurements and monitoring at different spots in and around the airports as well as through in vitro testing and/or remote sensing for water quality in airports close to water bodies Contributing to the delivery of better emission factors for emissions inventories and projections (including EMEP), especially for species and fuel mixtures for which little knowledge exists today in order to support local, regional, national and international emissions reduction plans (e.g. Noise Plans, Air Quality Roadmaps, Air Quality Plans, national Air Pollution Control Programmes",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria se enfoca en monitorización ambiental y evaluación de impactos de operaciones aeroportuarias en comunidades circundantes. No se trata de un proceso térmico industrial de alta temperatura ni de desarrollo de tecnologías de eficiencia energética o tratamiento de emisiones en hornos. El sector aeroportuario no es cliente de Kalfrisa y la aplicación (medición de calidad del aire, ruido, biodiversidad) no encaja con la capacidad de I+D de la empresa en tecnologías de postcombustión, recuperación de calor o quemadores H2-ready.",
+      "trl_min": 3,
+      "trl_max": 6,
+      "socio_consorcio": "",
+      "deadline": 380,
+      "deadline_date": "2027-04-14",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-20",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "emis"
+      ],
+      "summary": "Aunque la convocatoria menciona NOx, se limita a evaluación ambiental y monitorización en aeropuertos, sin componente de tecnología térmica industrial. Kalfrisa no tiene experiencia en sector aeroportuario ni en soluciones de monitorización ambiental genérica desacopladas de procesos industriales de alta temperatura.",
+      "action": "Descartar. La convocatoria carece de alineación con el core business de Kalfrisa (hornos industriales, postcombustión térmica, quemadores H2). No hay oportunidad de aplicar las competencias diferenciadas de la empresa.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 8
+        }
+      ],
+      "keywords_found": [
+        "NOx"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 20,
+      "source": "HORIZON EUROPE",
+      "title": "Thermal energy optimisation and waste heat recovery of high energy demand IT rooms in buildings or small edge data centres",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Improved open access to performance data, sharing of best-practices and useful knowledge and information for owners and operators of IT infrastructure, as well as the IT and building sectors; New designs of IT rooms in buildings or small edge data centres valorise waste heat through thermal management techniques, processes and tools. Scope: The growing energy needs of the ICT sector must be met while aligning with climate neutrality and sustainability goals. Small IT rooms or small data centres are an essential part of the twin green and digital transition. It is important to address the energy and resources consumption over the full ICT value chain. Solutions already exist, such as re-u",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria se orienta explícitamente a eficiencia energética en edificios (IT rooms in buildings) y pequeños data centres edge, sectores excluidos del perfil de Kalfrisa. Aunque menciona recuperación de calor residual (waste heat recovery), el contexto es infraestructura TIC en edificios, no procesos térmicos industriales de alta temperatura.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 534,
+      "deadline_date": "2027-09-15",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-06",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Aunque la convocatoria Horizon Europe aborda waste heat recovery, su alcance está limitado a salas de servidores IT y pequeños data centres ubicados en edificios o entornos edge, no a procesos térmicos industriales. Las temperaturas, escalas y contextos aplicativos son radicalmente distintos de la especialización de Kalfrisa (hornos >400°C, industria cerámica, siderúrgica, química).",
+      "action": "Descartar sin revisión adicional. La convocatoria no es compatible con el criterio de exclusión de 'eficiencia energética en edificios (terciario)' establecido en el perfil.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 20
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency",
+        "waste heat"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 24,
+      "source": "HORIZON EUROPE",
+      "title": "Supporting pre-normative research for standardization of the bio-based products",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: higher and more robust industrial European competitiveness, decarbonisation and strategic autonomy, advancing the lead market for bio-based industry; improved environmental sustainability, with positive impact on climate, pollution and biodiversity, via the standardization of the bio-based sector and products. Scope: Proposals should address the following activities: aiming at overall high sustainability and environmental benefits, and considering the economic feasibility, for high quality of final products, select a bio-based sector/industry [1] to develop or improve knowledge, technology, product, process, service or solution related to Ecodesign applicable to the chosen sector; identi",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria se enfoca en estandarización de productos bio-based y ecodiseño sectorial, sin especificar procesos térmicos industriales de alta temperatura. Kalfrisa opera en recuperación de calor residual, control de emisiones en hornos y tecnologías H2 en contextos térmicos específicos (cerámica, siderurgia, vidrio). El scope genérico de 'bio-based sector' no coincide con la especialización core de Kalfrisa en soluciones para hornos industriales convencionales. Riesgo alto de mala alineación estratégica.",
+      "trl_min": 3,
+      "trl_max": 6,
+      "socio_consorcio": "",
+      "deadline": 171,
+      "deadline_date": "2026-09-17",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-08",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc"
+      ],
+      "summary": "Aunque la convocatoria menciona 'decarbonisation', su enfoque en estandarización y ecodiseño de sectores bio-based es incompatible con la especialización de Kalfrisa en eficiencia energética y control de emisiones de hornos industriales. No hay indicios de que la convocatoria aborde procesos térmicos de alta temperatura ni aplicaciones industriales convencionales donde Kalfrisa tiene ventaja competitiva.",
+      "action": "Descartar. Esta convocatoria es estructuralmente inadecuada para el perfil de Kalfrisa. Recomendar búsqueda de convocatorias HORIZON específicas en 'Industrial processes' o 'Clean hydrogen in industry'.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 10
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 50
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 25,
+      "source": "HORIZON EUROPE",
+      "title": "Advancing the European bio-based innovation enabled by biotechnology and biomanufacturing concepts",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: significant advance in the development of innovation in biotechnology, life sciences and/or biomanufacturing concepts, preparing future deployment of bio-based and bio-inspired processes, products and materials, as a basis for sustainable, fair, safe and circular value chains, contributing to decarbonisation, industrial competitiveness and the strategic autonomy of the EU and Associated Countries; improved environmental sustainability of the developed innovative bio-based solutions, with positive and quantifiable impact on climate and biodiversity, and circularity of the European bioeconomy via enhanced resource efficiency, including of biological feedstocks, water and energy, integratin",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria enfocada en biotecnología, biofabricación y procesos bio-basados. No aborda procesos térmicos industriales de alta temperatura ni tecnologías core de Kalfrisa (recuperación de calor, quemadores H2, control de emisiones en hornos). El término 'decarbonisation' es genérico y no implica alineación con eficiencia energética industrial térmica.",
+      "trl_min": 3,
+      "trl_max": 6,
+      "socio_consorcio": "",
+      "deadline": 171,
+      "deadline_date": "2026-09-17",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-07",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc"
+      ],
+      "summary": "Aunque la convocatoria persigue descarbonización e industria sostenible, su enfoque exclusivo en biotecnología y biomanufacturing está fuera del ámbito de competencia de Kalfrisa, que opera en soluciones térmicas y energéticas para hornos industriales. No existe vector de aplicación directa de las tecnologías core de Kalfrisa en este contexto bio-basado.",
+      "action": "Descartar. La convocatoria no contempla tecnologías térmicas convencionales ni aplicaciones a hornos industriales de cerámica, metalurgia o vidrio.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 28,
       "source": "IDAE",
       "title": "Para la transición energética en las islas PRTR",
       "description": "",
       "match": 15,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria PRTR orientada a transición energética en islas (contexto insular, sector terciario/residencial, renovables de generación eléctrica). No especifica procesos térmicos industriales de alta temperatura ni aplicación a hornos industriales, metalurgia o cerámica. Perfil geográfico (islas) y sectorial (genérico) incompatible con tecnologías core de Kalfrisa.",
+      "motivo_descarte": "Convocatoria orientada a transición energética en islas (contexto geográfico y sectorial periférico). IDAE-PRTR en islas típicamente financia renovables de generación eléctrica, eficiencia en edificios e infraestructuras públicas, sectores explícitamente excluidos en el perfil de Kalfrisa. Ausencia de mención a procesos térmicos industriales de alta temperatura o descarbonización de hornos industriales.",
       "trl_min": 6,
-      "trl_max": 9,
+      "trl_max": 8,
       "socio_consorcio": "",
       "deadline": 30,
       "deadline_date": "",
@@ -603,10 +1310,11 @@
       "url": "https://www.idae.es/ayudas-y-financiacion/para-la-transicion-energetica-en-las-islas-prtr",
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [
+        "ee",
         "desc"
       ],
-      "summary": "Aunque la convocatoria PRTR aborda transición energética, su enfoque insular sugiere proyectos de escala pequeña, edificios, infraestructuras públicas o renovables de generación eléctrica. Kalfrisa se especializa en soluciones para industria pesada con procesos térmicos >400°C; esta convocatoria no menciona sectores como cerámica, metalurgia, siderurgia o químico-petroquímico.",
-      "action": "Descartar. Solicitar información explícita a IDAE sobre si la convocatoria financia también tecnologías de eficiencia térmica en procesos industriales de las islas (p.ej., hornos de cerámica, tratamiento térmico). De no confirmarse, no aplica.",
+      "summary": "La convocatoria IDAE-PRTR para transición energética en islas carece de especificidad sectorial industrial. Su enfoque genérico en transición energética sin mencionar procesos térmicos, hornos industriales, H2 como combustible o tratamiento de emisiones industriales, sugiere orientación hacia energías renovables de generación y eficiencia edilicia, fuera del scope de Kalfrisa.",
+      "action": "Descartar. Solicitar a IDAE bases de convocatoria completas para confirmar, pero no invertir recursos en candidatura sin claridad sobre componentes industriales térmicos específicos.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -614,11 +1322,11 @@
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 50
+          "val": 60
         },
         {
           "name": "Encaje TRL",
-          "val": 25
+          "val": 70
         },
         {
           "name": "Oportunidad estratégica",
@@ -631,15 +1339,15 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 3,
+      "id": 29,
       "source": "IDAE",
       "title": "Para Desarrollo Urbano Sostenible. Proyectos de Entidades Locales que favorezcan el paso a una economía baja en carbono (FEDER - POPE 2014-2020)",
       "description": "",
       "match": 15,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria dirigida explícitamente a entidades locales (ayuntamientos, diputaciones) para desarrollo urbano sostenible y economía baja en carbono en contexto territorial/municipal. Kalfrisa es empresa industrial B2B especializada en procesos térmicos industriales de alta temperatura. El enfoque es urbano/terciario, no industrial.",
-      "trl_min": 6,
+      "motivo_descarte": "Convocatoria orientada a desarrollo urbano y entidades locales (municipios, administraciones públicas). Kalfrisa es empresa privada industrial. El alcance es eficiencia energética en entorno urbano/terciario, explícitamente excluido del perfil. No hay componente de procesos térmicos industriales de alta temperatura.",
+      "trl_min": 8,
       "trl_max": 9,
       "socio_consorcio": "",
       "deadline": 30,
@@ -649,27 +1357,26 @@
       "url": "https://www.idae.es/ayudas-y-financiacion/para-desarrollo-urbano-sostenible-proyectos-de-entidades-locales-que",
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [
-        "desc",
-        "ee"
+        "desc"
       ],
-      "summary": "Aunque la convocatoria menciona 'economía baja en carbono' (alineado con descarbonización), está diseñada para entidades públicas locales ejecutando proyectos de eficiencia en ciudades, distritos térmicos o infraestructuras municipales. No contempla participación de empresas privadas como socios tecnológicos líderes ni procesos industriales de alta temperatura.",
-      "action": "Descartar. La convocatoria excluye de facto a Kalfrisa por dos motivos: (1) requiere que la entidad solicitante sea local/pública, y (2) el alcance es urbano/territorial, no industrial. Buscar convocatorias IDAE o CDTI orientadas a eficiencia energética industrial, descarbonización de procesos térmicos o transición a hidrógeno en industria.",
+      "summary": "Aunque la convocatoria menciona 'economía baja en carbono' y es gestionada por IDAE (financiador habitual de Kalfrisa), su enfoque en desarrollo urbano sostenible y proyectos de entidades locales la desvincula completamente del perfil industrial de Kalfrisa. No existe demanda de tecnologías de recuperación de calor residual, hidrógeno industrial o control de emisiones en hornos.",
+      "action": "Descartar. Esta convocatoria no es aplicable a Kalfrisa por su naturaleza de financiación a administraciones locales, no a empresas privadas industriales. Monitorizar convocatorias IDAE/CDTI orientadas a industria pesada (cerámica, siderurgia, vidrio) o transición energética en procesos térmicos.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 25
-        },
-        {
-          "name": "Capacidad de consorcio",
           "val": 5
         },
         {
+          "name": "Capacidad de consorcio",
+          "val": 10
+        },
+        {
           "name": "Encaje TRL",
-          "val": 40
+          "val": 20
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 10
+          "val": 0
         }
       ],
       "keywords_found": [
@@ -678,16 +1385,108 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 18,
+      "id": 41,
+      "source": "IDAE",
+      "title": "Eficiencia Energética",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria IDAE 'Eficiencia Energética' genérica sin especificación sectorial ni tecnológica. Alto riesgo de enfoque en edificios, sector terciario o transporte, sectores explícitamente excluidos del perfil Kalfrisa. Descripción insuficiente para validar aplicabilidad a procesos térmicos industriales de alta temperatura.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria IDAE carece de especificación clara sobre sectores industriales o tecnologías de procesos térmicos. Kalfrisa requiere certeza de que la línea financia eficiencia en hornos industriales, no medidas genéricas en edificios o sector terciario. Sin detalles de bases, se asume riesgo alto de exclusión sectorial.",
+      "action": "Solicitar bases de convocatoria completas a IDAE. Si confirman cobertura de eficiencia en procesos térmicos industriales (hornos, metalurgia, cerámica) con TRL 5-7, reevaluar. En caso contrario, descartar definitivamente.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 25
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 70
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 60
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 10
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 42,
+      "source": "IDAE",
+      "title": "Guías Técnicas de Ahorro y Eficiencia Energética en Climatización",
+      "description": "",
+      "match": 15,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria se orienta a climatización en edificios (sector terciario/residencial), excluido explícitamente del perfil de Kalfrisa. Carece de componente de procesos térmicos industriales de alta temperatura.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/edificacion/reglamento-de-instalaciones-termicas-de-los-0",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Aunque proviene de IDAE (financiador habitual de Kalfrisa), esta convocatoria trata eficiencia energética genérica en climatización de edificios, no en procesos térmicos industriales. Entra directamente en criterios de exclusión absoluta por ser sector terciario/residencial.",
+      "action": "Descartar sin análisis adicional. Buscar alternativas de IDAE/CDTI enfocadas en eficiencia térmica en industria (cerámica, siderurgia, química) con recuperación de calor residual o transición a hidrógeno.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 70
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 60
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 44,
       "source": "IDAE",
       "title": "Guía Metodológica para la realización del análisis coste-beneficio a nivel de instalación de acuerdo al artículo 14 de la Directiva de Eficiencia Energética",
       "description": "",
       "match": 15,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria enfocada en desarrollo de guía metodológica genérica de análisis coste-beneficio (ACB) para eficiencia energética, sin componente de I+D industrial, validación tecnológica o desarrollo de soluciones. No es una convocatoria de financiación de proyectos de I+D sino de elaboración de herramientas normativas/administrativas. Fuera del modelo de negocio y capacidades de Kalfrisa.",
-      "trl_min": 0,
-      "trl_max": 2,
+      "motivo_descarte": "Convocatoria de carácter metodológico/normativo (Directiva UE) sin componente de I+D tecnológica. No financia desarrollo, validación ni demostración de soluciones industriales, sino elaboración de guías de análisis coste-beneficio genéricas. Fuera del scope de I+D industrial de Kalfrisa.",
+      "trl_min": 1,
+      "trl_max": 3,
       "socio_consorcio": "",
       "deadline": 30,
       "deadline_date": "",
@@ -698,8 +1497,8 @@
       "tags": [
         "ee"
       ],
-      "summary": "Esta convocatoria IDAE no es un proyecto de I+D industrial sino una iniciativa de desarrollo de guía metodológica para cumplimiento normativo (Directiva 2023/1791 EED). No financia demostración, validación o desarrollo de tecnologías de eficiencia térmica, sino creación de marcos de análisis administrativo. No alineada con la capacidad tecnológica ni el modelo de I+D de Kalfrisa.",
-      "action": "Descartar sin análisis adicional. Esta convocatoria está dirigida a consultorías especializadas en normativa energética y análisis de políticas, no a empresas de tecnología industrial. Kalfrisa debe focalizarse en convocatorias de I+D con componente de innovación tecnológica (CDTI, HORIZON, IDAE proyectos de demostradores).",
+      "summary": "Esta convocatoria del IDAE está orientada a la creación de herramientas metodológicas para cumplimiento normativo europeo (Directiva 2012/27/UE), no a I+D de tecnologías de eficiencia energética o descarbonización. Kalfrisa, como empresa industrial especializada en soluciones térmicas validadas (TRL 4-7), no tiene encaje con un proyecto de análisis coste-beneficio a nivel de instalación.",
+      "action": "Descartar. Esta convocatoria no financia desarrollo tecnológico sino labores de consultoría normativa y metodología. Buscar en su lugar convocatorias CDTI, IDAE de innovación industrial o fondos autonómicos orientados a soluciones H2-ready, recuperación de calor residual o control de emisiones en procesos térmicos.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -707,15 +1506,15 @@
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 10
+          "val": 20
         },
         {
           "name": "Encaje TRL",
-          "val": 0
+          "val": 10
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 5
+          "val": 0
         }
       ],
       "keywords_found": [
@@ -724,16 +1523,16 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 20,
+      "id": 46,
       "source": "IDAE",
       "title": "Transición Energética en las Illes Balears",
       "description": "",
       "match": 15,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria IDAE genérica de transición energética en territorios insulares. Carece de especificidad en procesos térmicos industriales de alta temperatura. Riesgo alto de enfoque en eficiencia edificios, transporte, o energías renovables de generación eléctrica sin componente industrial térmico, que son criterios de exclusión absoluta de Kalfrisa.",
+      "motivo_descarte": "Convocatoria orientada a transición energética regional/territorial de Baleares sin especificación de procesos térmicos industriales de alta temperatura. Riesgo alto de que incluya eficiencia energética en edificios, sector terciario o energías renovables de generación eléctrica sin componente industrial térmico, criterios de exclusión absoluta para Kalfrisa.",
       "trl_min": 6,
-      "trl_max": 8,
+      "trl_max": 9,
       "socio_consorcio": "",
       "deadline": 30,
       "deadline_date": "",
@@ -742,11 +1541,11 @@
       "url": "https://www.idae.es/oficina-tecnica-de-energia-limpia-y-proyectos-inteligentes-en-las-islas/energia-sostenible-en-las-islas-pniec-prtr/transicion-energetica-en-las-illes-balears",
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [
-        "desc",
-        "ee"
+        "ee",
+        "desc"
       ],
-      "summary": "Sin acceso a detalles técnicos de la convocatoria, se presume una convocatoria territorialmente acotada (Baleares) con enfoque genérico de transición energética. Kalfrisa opera en procesos térmicos industriales de alta temperatura, especialidad que no garantiza encaje en convocatorias insulares amplias y de naturaleza generalmente transversal. La ausencia de mención a sectores cliente de Kalfrisa (cerámica, siderurgia, vidrio, petroquímica) es un indicador negativo crítico.",
-      "action": "Descartar. Solicitar convocatoria completa (bases técnicas) a IDAE antes de cualquier evaluación. Si existe, priorizar convocatorias CDTI sectoriales o autonómicas aragonesas con foco explícito en industria pesada y emisiones.",
+      "summary": "La convocatoria IDAE 'Transición Energética en Illes Balears' carece de descriptor técnico que evidencie foco en procesos industriales térmicos de alta temperatura. Su naturaleza regional y genérica sugiere alcance en eficiencia de edificios, renovables de generación eléctrica y sectores transversales, fuera del núcleo de especialización de Kalfrisa.",
+      "action": "Descartar sin solicitar bases. Requiere confirmación de que exista línea específica para industria térmico-intensiva (cerámica, siderurgia, química) antes de cualquier reconsideración.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -754,15 +1553,15 @@
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 50
+          "val": 40
         },
         {
           "name": "Encaje TRL",
-          "val": 60
+          "val": 25
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 5
+          "val": 15
         }
       ],
       "keywords_found": [
@@ -771,14 +1570,14 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 21,
+      "id": 47,
       "source": "IDAE",
       "title": "Transición Energética en las Islas Canarias",
       "description": "",
       "match": 15,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria orientada a transición energética insular genérica sin especificidad en procesos térmicos industriales de alta temperatura. IDAE Canarias típicamente financia eficiencia en edificios, servicios públicos, movilidad y renovables de generación, fuera del perímetro industrial de Kalfrisa.",
+      "motivo_descarte": "Convocatoria enfocada en transición energética insular (generación renovable, movilidad, edificios). Sin especificación de procesos térmicos industriales de alta temperatura ni sectores cliente de Kalfrisa (cerámica, siderurgia, vidrio). Riesgo alto de exclusión por falta de componente industrial térmico relevante.",
       "trl_min": 6,
       "trl_max": 9,
       "socio_consorcio": "",
@@ -792,24 +1591,24 @@
         "desc",
         "ee"
       ],
-      "summary": "Aunque la transición energética es conceptualmente cercana a los objetivos de descarbonización de Kalfrisa, esta convocatoria IDAE Canarias carece de información específica sobre procesos térmicos industriales y se alinea con sectores de edificación, servicios e infraestructuras insulares. El contexto insular y la naturaleza típica de IDAE favorecen proyectos de eficiencia residencial/terciaria y energías renovables de generación, excluidos explícitamente en el perfil.",
-      "action": "Descartar. Solicitar a IDAE detalles específicos de la convocatoria antes de evaluar. Si la convocatoria incluye un pilar explícito de 'industria manufacturera con procesos térmicos >400°C' (cerámica, vidrio, metalurgia en Canarias), reconsiderar; en caso contrario, no participar.",
+      "summary": "La convocatoria IDAE 'Transición Energética en las Islas Canarias' carece de información específica sobre procesos térmicos industriales. El contexto insular y las palabras clave genéricas sugieren enfoque en energías renovables de generación eléctrica, eficiencia en edificios o movilidad, sectores que están en los criterios de exclusión absoluta de Kalfrisa. Sin detalles concretos que demuestren aplicabilidad a hornos industriales o sistemas de recuperación de calor residual.",
+      "action": "Descartar. Solicitar bases completas de la convocatoria para verificar si existe línea específica para procesos térmicos industriales en Canarias; si no, no participar.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 25
+          "val": 10
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 40
+          "val": 60
         },
         {
           "name": "Encaje TRL",
-          "val": 35
+          "val": 40
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 10
+          "val": 5
         }
       ],
       "keywords_found": [
@@ -818,15 +1617,15 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 22,
+      "id": 48,
       "source": "IDAE",
       "title": "Medidas del Gobierno de ahorro y eficiencia energética (Incluye cartelería para descargar)",
       "description": "",
       "match": 15,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria IDAE de ahorro y eficiencia energética genérica orientada mayoritariamente a edificios, sector terciario y medidas transversales. Aunque nominalmente incluye 'eficiencia energética', no especifica procesos térmicos industriales de alta temperatura ni aplicación a hornos industriales. Riesgo elevado de exclusión por enfoque residencial/terciario.",
-      "trl_min": 7,
+      "motivo_descarte": "Convocatoria genérica de eficiencia energética del IDAE sin especificación sectorial. La información disponible (solo keywords 'eficiencia energética' y cartelería) no confirma aplicabilidad a procesos térmicos industriales de alta temperatura. Riesgo muy alto de que incluya sectores de exclusión absoluta (edificios residenciales/terciarios, transporte) típicos en estas convocatorias IDAE de carácter horizontal.",
+      "trl_min": 6,
       "trl_max": 9,
       "socio_consorcio": "",
       "deadline": 30,
@@ -838,20 +1637,20 @@
       "tags": [
         "ee"
       ],
-      "summary": "La convocatoria IDAE es genérica en eficiencia energética sin evidencia clara de enfoque en procesos térmicos industriales de alta temperatura donde Kalfrisa opera. El TRL requerido (7-9) tampoco encaja con la capacidad natural de Kalfrisa (TRL 4-7). Riesgo de caer bajo criterio de exclusión por sesgo hacia edificios y sector terciario.",
-      "action": "Solicitar bases técnicas detalladas a IDAE para confirmar si existen líneas específicas para hornos industriales >400°C. Si no las hay explícitamente, descartar. Priorizar convocatorias CDTI o autonómicas aragonesas con enfoque industrial térmico.",
+      "summary": "Aunque Kalfrisa opera en eficiencia energética industrial, esta convocatoria IDAE aparenta ser una medida horizontal y genérica sin foco específico en procesos térmicos industriales. La ausencia de detalles sobre sectores elegibles, bases regulatorias y TRL esperado impide validar encaje real. Convocatorias IDAE similares frecuentemente priorizan sectores residenciales/terciarios, excluidos para Kalfrisa.",
+      "action": "Descartar hasta obtener bases regulatorias detalladas. Solo reactivar si se confirma explícitamente cobertura de industria cerámica, siderúrgica, química o vidrio con procesos >400°C. Contactar IDAE para clarificar sectores elegibles antes de inversión en propuesta.",
       "dims": [
         {
           "name": "Alineación tecnológica",
-          "val": 20
+          "val": 25
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 60
+          "val": 70
         },
         {
           "name": "Encaje TRL",
-          "val": 25
+          "val": 40
         },
         {
           "name": "Oportunidad estratégica",
@@ -864,28 +1663,123 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 4,
-      "source": "IDAE",
-      "title": "Programa de Ayudas para actuaciones de eficiencia energética en el sector ferroviario (FNEE)",
-      "description": "",
+      "id": 1,
+      "source": "HORIZON EUROPE",
+      "title": "Digital solutions to foster participative design, planning and management of buildings, neighbourhoods and urban districts (Built4People Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Greater engagement of representative groups of end users as well as citizens of the impacted urban context. Increased acceptability and uptake of sustainable deep renovation solutions in the built environment. Reduced energy and mobility poverty. Increase in plans for climate neutral and sustainable, aesthetic and inclusive built environments with enhanced climate adaptation and resilience (e.g. based on nature-based solutions). Enhanced climate change adaptation and resilience in built environments. Scope: The transition to a climate-neutral society requires that Europe’s building stock also becomes climate-neutral. At the same time, Europe’s building stock has to become climate resilie",
       "match": 8,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Sector ferroviario excluido explícitamente. El transporte terrestre (incluido ferroviario) está fuera del alcance de Kalfrisa. Aunque la convocatoria trata eficiencia energética, no se aplica a procesos térmicos industriales de alta temperatura ni a maquinaria industrial.",
-      "trl_min": 6,
-      "trl_max": 9,
+      "motivo_descarte": "Convocatoria enfocada exclusivamente en edificios, distritos urbanos y sector terciario (built environment). Kalfrisa opera en procesos térmicos industriales de alta temperatura. El ámbito 'buildings and urban districts' entra en el criterio de exclusión absoluta de eficiencia energética en edificios residenciales y sector terciario.",
+      "trl_min": 5,
+      "trl_max": 8,
       "socio_consorcio": "",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
+      "deadline": 0,
+      "deadline_date": "2025-02-03",
+      "budget": "Presupuesto 2024",
       "budget_raw": 0,
-      "url": "https://www.idae.es/ayudas-y-financiacion/para-movilidad-y-vehiculos/convocatorias-cerradas/programa-de-ayudas-para-0",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL5-2024-D4-02-05.json",
+      "org": "Comisión Europea / Horizon Europe",
       "tags": [
+        "desc",
         "ee"
       ],
-      "summary": "La convocatoria FNEE del IDAE se centra en eficiencia energética en infraestructuras y sistemas ferroviarios (trenes, estaciones, tracción). Aunque Kalfrisa posee expertise en eficiencia energética, el sector ferroviario corresponde a transporte terrestre, que está en los criterios de exclusión absoluta del perfil. No hay sinergia con las tecnologías core (hornos industriales, recuperación de calor residual, tratamiento de emisiones térmicas).",
-      "action": "Descartar. No presenta oportunidad estratégica relevante. Dirigirse a convocatorias específicas en eficiencia térmica industrial (cerámicas, metalurgia, vidrio, química) o transición a hidrógeno en procesos industriales.",
+      "summary": "Aunque la convocatoria menciona descarbonización y eficiencia energética, su scope está delimitado al entorno construido (built environment), edificios, barrios y distritos urbanos. Kalfrisa, especializada en soluciones para hornos industriales y procesos térmicos de alta temperatura (cerámica, siderurgia, vidrio), no tiene aplicabilidad directa a este contexto. Los keywords coinciden, pero el dominio de aplicación es incompatible con el perfil industrial de la empresa.",
+      "action": "Descartar. No buscar participación. La convocatoria está orientada a gestión participativa, renovación profunda y resiliencia climática de edificios y espacios urbanos, sin relevancia para tecnologías de tratamiento de emisiones y recuperación térmica en procesos industriales.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 15
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency",
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 4,
+      "source": "HORIZON EUROPE",
+      "title": "Disruptive Technologies and Innovative Concepts for Energy Saving Onboard of long-distance ships (ZEWT Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all the following expected outcomes: Development of novel and disruptive technologies and innovative concepts that demonstrate at least 25% energy savings for long distance shipping, compared to 2008 levels. Established methodology for assessing the energy savings from the proposed solutions, considering the implementation of the IMO GHG strategy and of the FuelEU Maritime Regulation. Proven scalability and replicability of the developed technologies and concepts to various ship types, operational profiles and navigational routes. Assess the economic viability, environmental and climate impacts of the technologies and innovative concepts. Defined implications and impacts of the proposed solutions regarding safety and operation",
+      "match": 8,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Transporte marítimo de larga distancia. Entra en criterio de exclusión absoluta: 'Transporte terrestre, aéreo o marítimo'. Aunque la convocatoria aborda eficiencia energética, el sector cliente (buques) está fuera del alcance industrial térmico de Kalfrisa.",
+      "trl_min": 4,
+      "trl_max": 7,
+      "socio_consorcio": "",
+      "deadline": 15,
+      "deadline_date": "2026-04-14",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-06-Two-Stage-D5-10",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee",
+        "desc"
+      ],
+      "summary": "Aunque Kalfrisa posee competencias sólidas en eficiencia energética y tecnologías bajas en emisiones, esta convocatoria está enfocada exclusivamente en la descarbonización de buques de larga distancia bajo regulación IMO. El sector marítimo está explícitamente excluido del perfil estratégico de la empresa, que se centra en procesos térmicos industriales terrestres (hornos, calderas, reactores químicos).",
+      "action": "Descartar sin análisis adicional. No existe conexión con sectores cliente (cerámica, siderurgia, química, vidrio) ni aplicabilidad de las tecnologías core de Kalfrisa a propulsión marítima.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 15
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 40
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 65
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 5
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 7,
+      "source": "HORIZON EUROPE",
+      "title": "Enhanced electric operation and battery durability (ZEWT Partnership)",
+      "description": "Expected Outcome: Project outputs and results are expected to contribute to all the following expected outcomes: Demonstrate autonomy, of at least 150 nm (or 277.8 KM for inland navigation) using electrical storage as the only energy source, while allowing rapid in-route zero-emission replenishment. Increase the power output, providing beyond 5 MW as peak propulsion power with corresponding grid capacity. Improve systems to increase the number charging cycles combined with high-power charging to suit the operation needs of different ship types and services. Identify the operating profiles and business cases for which electric powered shipping will bring significant improvements taking into account the priorities and provisions of the Fitfor55 package, especially FuelEU Maritime, Naiades II",
+      "match": 8,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Transporte marítimo (shipping). Entra en criterio de exclusión absoluta: 'Transporte terrestre, aéreo o marítimo'. La convocatoria trata exclusivamente sobre propulsión eléctrica de buques y baterías marinas, sin componente industrial térmico.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 380,
+      "deadline_date": "2027-04-14",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-18",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc"
+      ],
+      "summary": "La convocatoria ZEWT Partnership (Horizon Europe) aborda eficiencia energética y durabilidad de baterías para transporte marítimo, excluyendo a Kalfrisa por especificidad sectorial. Aunque Kalfrisa posee expertise en sistemas energéticos y almacenamiento, la aplicación es maritime propulsion, no procesos térmicos industriales de alta temperatura.",
+      "action": "Descartar sin evaluación adicional. El perfil de exclusión es inequívoco: no existe componente de hornos industriales, procesos térmicos >400°C, postcombustión o eficiencia en sectores objetivo de Kalfrisa. Redirigir recursos a convocatorias de descarbonización industrial (HORIZON EUROPE Cluster 5, CDTI Misiones Industria, o convocatorias autonómicas aragonesas con enfoque térmico).",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -893,11 +1787,11 @@
         },
         {
           "name": "Capacidad de consorcio",
-          "val": 70
+          "val": 65
         },
         {
           "name": "Encaje TRL",
-          "val": 60
+          "val": 75
         },
         {
           "name": "Oportunidad estratégica",
@@ -905,33 +1799,34 @@
         }
       ],
       "keywords_found": [
-        "eficiencia energética"
+        "energy efficiency"
       ],
-      "source_type": "Web Scraping"
+      "source_type": "SEDIA API"
     },
     {
-      "id": 16,
-      "source": "IDAE",
-      "title": "Guías Técnicas de Ahorro y Eficiencia Energética en Climatización",
-      "description": "",
+      "id": 9,
+      "source": "HORIZON EUROPE",
+      "title": "Innovative Solutions for mitigating the environmental impact of waterborne transport in marine and aquatic Ecosystems (ZEWT Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes. Improved water resilience and good environmental and good ecological status in European waters and contribute to the achievement of the European Union's environmental targets, including the European Water Resilience Strategy and the European Ocean Pact. A comprehensive understanding of the future environmental impacts of waterborne transport on marine and other aquatic ecosystems, addressing in particular pollution sources from: i) navigation on renewable low and zero-carbon fuels; and ii) accidental spills of renewable low and zero-carbon fuels for marine waters, inland waters and ports (water and air quality). Innovative prevention, abatement and mitigation systems and strategies for r",
       "match": 8,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria enfocada en climatización de edificios (sector terciario/residencial), fuera del scope industrial térmico de Kalfrisa. Entra en criterio de exclusión absoluta: 'Eficiencia energética en edificios residenciales o sector terciario'.",
-      "trl_min": 7,
-      "trl_max": 9,
+      "motivo_descarte": "Transporte acuático/marítimo excluido explícitamente. La convocatoria se centra en mitigación ambiental del transporte acuático y ecosistemas marinos/fluviales, fuera del alcance de Kalfrisa (procesos térmicos industriales terrestres). La mención de 'combustibles bajos en carbono' no transforma el foco sectorial excluyente.",
+      "trl_min": 4,
+      "trl_max": 7,
       "socio_consorcio": "",
-      "deadline": 30,
-      "deadline_date": "",
-      "budget": "Ver convocatoria",
+      "deadline": 380,
+      "deadline_date": "2027-04-14",
+      "budget": "Presupuesto 2027",
       "budget_raw": 0,
-      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/edificacion/reglamento-de-instalaciones-termicas-de-los-0",
-      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-17",
+      "org": "Comisión Europea / Horizon Europe",
       "tags": [
-        "ee"
+        "desc",
+        "h2"
       ],
-      "summary": "La convocatoria de IDAE sobre guías técnicas de climatización está dirigida al sector edificios (terciario/residencial), no a procesos térmicos industriales de alta temperatura. Aunque Kalfrisa tiene expertise en eficiencia energética, su tecnología (recuperación de calor en hornos >400°C, quemadores H2, tratamiento de emisiones) no es aplicable a sistemas HVAC convencionales.",
-      "action": "Descartar. No solicitar. La convocatoria no admite la reorientación hacia procesos industriales térmicos y Kalfrisa carece de posicionamiento en climatización edilicia.",
+      "summary": "Aunque la convocatoria menciona descarbonización e hidrógeno como combustible alternativo, su objetivo estratégico es exclusivamente el transporte acuático y la protección de ecosistemas marinos/fluviales. Kalfrisa carece de experiencia, tecnologías aplicables y clientes en este sector, que está explícitamente excluido de su perfil de financiación.",
+      "action": "Descartar sin evaluación adicional. No solicitar participación ni buscar consorcios. Las tecnologías de Kalfrisa (hornos industriales, tratamiento de emisiones térmicas) no son transferibles a propulsión o sistemas de abatimiento en buques/embarcaciones fluviales.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -939,7 +1834,53 @@
         },
         {
           "name": "Capacidad de consorcio",
+          "val": 0
+        },
+        {
+          "name": "Encaje TRL",
           "val": 70
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "decarbonization"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 10,
+      "source": "HORIZON EUROPE",
+      "title": "Higher Voltage, Megawatt Charging System compatible, modular powertrain for Heavy Duty Vehicles (HDV) (2ZERO Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Demonstrated integration potential and modularity of next level advanced high-voltage systems to benefit cost of Commercial Vehicles (CV) in particular for the Heavy-Duty Vehicles (HDV) segment. Improved energy efficiency and higher utilization potential of HDV (ensuring full operational capability for the intended usage models) via high-voltage powertrain configurations. Demonstrated benefits of high-voltage systems also for fast charging and auxiliary components. Scope: Major challenges still faced by Heavy Duty Battery Electric Vehicles (HD-BEV) are cost and fast charging. As electric vehicles become more attractive through Total Cost of Ownership (TCO), significantly higher acquisiti",
+      "match": 8,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Transporte terrestre (Heavy Duty Vehicles). Criterio de exclusión absoluta: 'Transporte terrestre, aéreo o marítimo' sin componente de proceso térmico industrial.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 380,
+      "deadline_date": "2027-04-14",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-05",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria aborda sistemas de propulsión eléctrica de alto voltaje para vehículos comerciales pesados. Aunque toca eficiencia energética, está completamente fuera del alcance de Kalfrisa: no involucra procesos térmicos industriales, hornos de alta temperatura, ni tratamiento de emisiones en contexto industrial. Es tecnología automotriz pura.",
+      "action": "Descartar inmediatamente. No hay salvaguarda posible: el proyecto pertenece al ecosistema de transporte, no a soluciones para procesos térmicos industriales.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
         },
         {
           "name": "Encaje TRL",
@@ -947,35 +1888,127 @@
         },
         {
           "name": "Oportunidad estratégica",
-          "val": 0
+          "val": 2
         }
       ],
       "keywords_found": [
-        "eficiencia energética"
+        "energy efficiency"
       ],
-      "source_type": "Web Scraping"
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 16,
+      "source": "HORIZON EUROPE",
+      "title": "Advanced data platforms to integrate whole life carbon in building information tools, assessments, and certification (Built4People Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Increased number of building information tools, assessments and/or certificates makes use of digital data exchange platforms; More accurate and reliable EU-aligned life cycle inventories of embodied environmental flows in construction materials and products; Increased number of already existing building standards and certification schemes refer to GWP to support national decarbonisation strategies in line with relevant European legislation (such as Energy Performance of Buildings Directive, Construction Products Regulation and delegated acts, voluntary label for carbon footprint of steel, Delegated Act for carbon removal certification in long-lasting products); Improved data availability",
+      "match": 8,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Convocatoria enfocada en herramientas digitales de información de edificios (BIM, ciclo de vida, certificación), no en procesos térmicos industriales de alta temperatura. El sector objetivo es construcción/edificación, explícitamente excluido del perfil Kalfrisa.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 169,
+      "deadline_date": "2026-09-15",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D4-03",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "desc"
+      ],
+      "summary": "Aunque la convocatoria menciona 'decarbonización' y 'ciclo de vida', está completamente orientada a plataformas digitales para información de edificios, evaluación de productos de construcción y certificación ambiental de materiales. Kalfrisa opera en procesos térmicos industriales (hornos, quemadores, recuperación de calor), no en sector edificación ni en herramientas software genéricas desacopladas de aplicaciones térmicas industriales.",
+      "action": "Descartar. No existe solapamiento real entre la tecnología de eficiencia energética en hornos industriales de Kalfrisa y el desarrollo de plataformas de datos para certificación ambiental de materiales de construcción.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 50
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 2
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
     },
     {
       "id": 17,
+      "source": "HORIZON EUROPE",
+      "title": "Low disturbance prefabrication approaches for deep renovation of multi-storey buildings (Built4People Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Measurable reduction in the costs of deep renovation compared to current best practices; Measurable increase in resource and energy efficiency compared to current best practices; Measurable reduction in the number of days when occupants are disturbed due to renovation works; Measurable reduction of dust, noise, waste and pollutant and greenhouse emissions on the construction site compared to current best practices. Scope: Meeting Europe’s ambition for the renovation of the housing stock requires innovative approaches that improve buildings’ energy performance and occupants’ satisfaction, at a reduced cost while speeding up the renovation process and minimising impact on the construction ",
+      "match": 8,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Eficiencia energética en edificios residenciales y sector terciario (deep renovation of multi-storey buildings). Entra directamente en criterio de exclusión absoluta del perfil Kalfrisa.",
+      "trl_min": 5,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 169,
+      "deadline_date": "2026-09-15",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D4-02",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee"
+      ],
+      "summary": "La convocatoria Built4People se enfoca en renovación energética de edificios de viviendas multifamiliares mediante prefabricación modular. Aunque trata eficiencia energética (keyword detectado), está completamente fuera del alcance industrial-térmico de Kalfrisa, que opera en hornos y procesos industriales de alta temperatura, no en envolventes edificatorias residenciales.",
+      "action": "Descartar sin análisis adicional. No hay aplicación posible de tecnologías core de Kalfrisa (recuperación calor residual en hornos, quemadores H2, tratamiento COVs industriales) en contexto de edificios residenciales. Buscar alternativas en convocatorias HORIZON orientadas a eficiencia térmica industrial o descarbonización de procesos de manufacturación.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 5
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 75
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 80
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 2
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 30,
       "source": "IDAE",
-      "title": "Documentos de ahorro y eficiencia energética en la agricultura",
+      "title": "Programa de Ayudas para actuaciones de eficiencia energética en el sector ferroviario (FNEE)",
       "description": "",
       "match": 8,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria enfocada exclusivamente en agricultura, sector explícitamente excluido del perfil de Kalfrisa. Ausencia total de aplicación a procesos térmicos industriales de alta temperatura.",
-      "trl_min": 5,
+      "motivo_descarte": "Transporte ferroviario excluido explícitamente en criterios de exclusión (transporte terrestre). Convocatoria enfocada en eficiencia energética de sistemas de tracción/movilidad, no en procesos térmicos industriales de alta temperatura.",
+      "trl_min": 6,
       "trl_max": 8,
       "socio_consorcio": "",
       "deadline": 30,
       "deadline_date": "",
       "budget": "Ver convocatoria",
       "budget_raw": 0,
-      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/agricultura-y-pesca/documentos-de-ahorro-y-eficiencia-energetica",
+      "url": "https://www.idae.es/ayudas-y-financiacion/para-movilidad-y-vehiculos/convocatorias-cerradas/programa-de-ayudas-para-0",
       "org": "Instituto para la Diversificación y Ahorro de la Energía",
       "tags": [],
-      "summary": "Aunque IDAE es fuente financiera conocida para Kalfrisa, esta convocatoria es sobre eficiencia energética en agricultura, no en industria térmica. El criterio de exclusión absoluta de agricultura descalifica completamente la propuesta, independientemente de que mencione 'eficiencia energética' como keyword genérica.",
-      "action": "Descartar sin análisis adicional. Monitorizar otras convocatorias IDAE enfocadas en industria térmica, descarbonización o transición energética en sectores cliente (cerámica, siderurgia, químico).",
+      "summary": "Aunque la convocatoria trata eficiencia energética (keyword coincidente), el sector ferroviario es explícitamente excluido del perfil Kalfrisa. Las soluciones core de la empresa (recuperación de calor en hornos >400°C, quemadores H2-ready, control de emisiones) no tienen aplicación en sistemas de propulsión ferroviaria. El encaje es nulo independientemente de TRL compatible.",
+      "action": "Descartar. No investigar líneas de negocio en transporte ferroviario. Mantener focus en sectores cliente establecidos (cerámica, siderurgia, química, vidrio).",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -987,7 +2020,7 @@
         },
         {
           "name": "Encaje TRL",
-          "val": 60
+          "val": 80
         },
         {
           "name": "Oportunidad estratégica",
@@ -1000,14 +2033,148 @@
       "source_type": "Web Scraping"
     },
     {
-      "id": 12,
+      "id": 6,
+      "source": "HORIZON EUROPE",
+      "title": "Sustainable aircraft circular design and additive manufacturing, towards a climate neutral aviation",
+      "description": "Expected Outcome: Project results are expected to contribute to both of the following expected outcomes: Additive manufacturing including high performance polymers, composites and metals, offering significantly improved performance compared to state-of-the-art. Entire process including design / manufacturing / characterization and testing / certification. Sustainable aircraft circular design and manufacturing processes of individual high-value components towards further developing the innovation pipeline from system demonstration to deployment stage in the EU and Associated Countries. Scope: This topic focuses on: Additive design and manufacturing of aircraft and engine structural components have already transformed the industry and are expected to be the key to the EU competitiveness. Geo",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Transporte aéreo excluido explícitamente. La convocatoria aborda diseño circular y fabricación aditiva de componentes aeronáuticos y de motores de avión, sector no industrial térmico dentro del alcance de Kalfrisa. No hay aplicación a procesos térmicos industriales de alta temperatura en sectores cliente (cerámica, siderurgia, química, vidrio).",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 380,
+      "deadline_date": "2027-04-14",
+      "budget": "Presupuesto 2027",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-08",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [],
+      "summary": "Aunque la convocatoria menciona 'energy efficiency' como keyword, su enfoque es exclusivamente en aviación sostenible y fabricación aditiva de componentes aeronáuticos, sector expresamente excluido del perfil de Kalfrisa. Las tecnologías core de recuperación de calor residual y control de emisiones en hornos industriales de alta temperatura no tienen aplicación en componentes estructurales de aeronaves.",
+      "action": "Descartar. No solicitar. La alineación es nula con los sectores cliente y tecnologías core de Kalfrisa.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 2
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 60
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 75
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 11,
+      "source": "HORIZON EUROPE",
+      "title": "Energy-efficient software-defined EVs (2ZERO Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all the following outcomes: Demonstrated energy-efficient, electric Software Defined Vehicles (SDVs), with purposely developed and strategically positioned traction and chassis hardware (HW) subsystems leveraging opportunities of the software (SW) abstraction layers as the cornerstone of SDV, and overall scalable. Real life demonstration of the value of functional integration in terms of user value (ensuring travel time) and responsiveness to user and societal needs (e.g. reduced space needed for the vehicles, reduced consumption of resources, responsive to diverse user needs and abilities), charging infrastructure (vehicle-to-grid integration), cost (e.g. reducing development and integration effort, number, and specs for indi",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria trata exclusivamente sobre vehículos eléctricos software-defined (transporte terrestre), sector excluido explícitamente del perfil de Kalfrisa. No hay conexión con procesos térmicos industriales de alta temperatura, hornos, recuperación de calor residual ni tratamiento de emisiones industriales.",
+      "trl_min": 6,
+      "trl_max": 9,
+      "socio_consorcio": "",
+      "deadline": 15,
+      "deadline_date": "2026-04-14",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-05-D5-02",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [],
+      "summary": "Esta convocatoria 2ZERO-HORIZON aborda eficiencia energética en vehículos eléctricos y software-defined mobility, un sector completamente ajeno a la especialización de Kalfrisa en procesos térmicos industriales. Aunque menciona 'energy efficiency', carece de cualquier dimensión industrial térmica, alta temperatura o tratamiento de emisiones en hornos.",
+      "action": "Descartar inmediatamente. No explorar variantes ni reinterpretaciones. El scope es transporte terrestre, fuera del perímetro de actividad de Kalfrisa por criterio de exclusión absoluta.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 0
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 30
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 2
+        }
+      ],
+      "keywords_found": [
+        "energy efficiency"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 18,
+      "source": "HORIZON EUROPE",
+      "title": "Validating policies and business models for affordable and sustainable housing (Built4People Partnership)",
+      "description": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Better understanding of the factors and interdependencies that influence levels of renovation of rental properties in the affordable housing sector; Increased number of policy makers revise policies, regulations, instruments and business models to increase the rate of renovation of rental properties in the affordable housing sector. Scope: The Renovation Wave strategy sets out measures across the whole renovation chain that aim to increase the rate and depth of renovations. One of the key principles for housing renovation towards 2030 and 2050 is affordability, i.e. making energy efficient, comfortable, healthy, sustainable and climate-resilient buildings widely available, in particular ",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "Criterio de exclusión absoluta: 'Eficiencia energética en edificios residenciales o sector terciario'. La convocatoria se enfoca exclusivamente en renovación de viviendas de alquiler asequible y edificios residenciales, sin ningún componente industrial térmico de alta temperatura.",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 169,
+      "deadline_date": "2026-09-15",
+      "budget": "Presupuesto 2026",
+      "budget_raw": 0,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D4-04",
+      "org": "Comisión Europea / Horizon Europe",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Aunque la convocatoria menciona 'decarbonisation' y eficiencia energética, se centra completamente en políticas y modelos de negocio para renovación de viviendas asequibles. No hay presencia de procesos térmicos industriales, hornos, combustión, tratamiento de emisiones industriales ni ninguno de los sectores core de Kalfrisa (cerámica, siderurgia, química, vidrio).",
+      "action": "Descartar sin excepción. El perfil de Kalfrisa como proveedor de tecnologías para procesos térmicos industriales de alta temperatura es incompatible con una convocatoria de vivienda residencial y política urbana.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 0
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 15
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 40
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 2
+        }
+      ],
+      "keywords_found": [
+        "decarbonisation"
+      ],
+      "source_type": "SEDIA API"
+    },
+    {
+      "id": 38,
       "source": "IDAE",
       "title": "Programa de ayudas para la realización de actuaciones de eficiencia energética en explotaciones agropecuarias",
       "description": "",
       "match": 5,
       "priority": "low",
       "descartada": true,
-      "motivo_descarte": "Convocatoria explícitamente destinada a explotaciones agropecuarias, sector incluido en criterios de exclusión absoluta de Kalfrisa. No hay procesos térmicos industriales de alta temperatura ni aplicación a hornos industriales.",
+      "motivo_descarte": "Convocatoria enfocada en explotaciones agropecuarias (agricultura, ganadería), sector excluido explícitamente del perfil de Kalfrisa. La empresa se especializa en procesos térmicos industriales de alta temperatura, no en eficiencia energética agraria.",
       "trl_min": 6,
       "trl_max": 8,
       "socio_consorcio": "",
@@ -1020,8 +2187,8 @@
       "tags": [
         "ee"
       ],
-      "summary": "La convocatoria IDAE de eficiencia energética en explotaciones agropecuarias está totalmente fuera del ámbito de Kalfrisa. Aunque el término 'eficiencia energética' aparece en ambos contextos, la convocatoria aborda ganadería, cultivos y sistemas de riego, no procesos térmicos industriales de alta temperatura.",
-      "action": "Descartar. No presentar candidatura. Esta convocatoria no ofrece oportunidad alguna para las tecnologías core de Kalfrisa (recuperación de calor en hornos, tratamiento de emisiones industriales, hidrógeno para quemadores).",
+      "summary": "Aunque la convocatoria trata eficiencia energética (keyword genérico), está dirigida exclusivamente al sector agropecuario, que entra en los criterios de exclusión absoluta de Kalfrisa. No hay alineación sectorial ni tecnológica con hornos industriales, tratamiento de emisiones o descarbonización de procesos térmicos intensivos.",
+      "action": "Descartar sin revisar. No presentar candidatura. Redirigir recursos a convocatorias de eficiencia energética en industria (cerámica, siderurgia, vidrio, química) o transición H2 en procesos térmicos.",
       "dims": [
         {
           "name": "Alineación tecnológica",
@@ -1030,6 +2197,52 @@
         {
           "name": "Capacidad de consorcio",
           "val": 0
+        },
+        {
+          "name": "Encaje TRL",
+          "val": 50
+        },
+        {
+          "name": "Oportunidad estratégica",
+          "val": 0
+        }
+      ],
+      "keywords_found": [
+        "eficiencia energética"
+      ],
+      "source_type": "Web Scraping"
+    },
+    {
+      "id": 43,
+      "source": "IDAE",
+      "title": "Documentos de ahorro y eficiencia energética en la agricultura",
+      "description": "",
+      "match": 5,
+      "priority": "low",
+      "descartada": true,
+      "motivo_descarte": "La convocatoria está explícitamente orientada a agricultura, sector incluido en criterios de exclusión absoluta de Kalfrisa. No existe componente de procesos térmicos industriales de alta temperatura ni aplicación en sectores cliente de la empresa (cerámica, siderurgia, vidrio, química).",
+      "trl_min": 6,
+      "trl_max": 8,
+      "socio_consorcio": "",
+      "deadline": 30,
+      "deadline_date": "",
+      "budget": "Ver convocatoria",
+      "budget_raw": 0,
+      "url": "https://www.idae.es/tecnologias/eficiencia-energetica/agricultura-y-pesca/documentos-de-ahorro-y-eficiencia-energetica",
+      "org": "Instituto para la Diversificación y Ahorro de la Energía",
+      "tags": [
+        "ee"
+      ],
+      "summary": "Aunque IDAE financia eficiencia energética, esta convocatoria específica carece de encaje sectorial con Kalfrisa. El foco en agricultura excluye cualquier aplicación en hornos industriales, tratamiento de emisiones o tecnologías de combustión. Kalfrisa no tiene experiencia ni capacidad productiva en este sector.",
+      "action": "Descartar sin análisis adicional. Monitorizar otras convocatorias IDAE orientadas a industria térmica o descarbonización industrial.",
+      "dims": [
+        {
+          "name": "Alineación tecnológica",
+          "val": 0
+        },
+        {
+          "name": "Capacidad de consorcio",
+          "val": 10
         },
         {
           "name": "Encaje TRL",
@@ -1047,52 +2260,62 @@
     }
   ],
   "stats": {
-    "active": 22,
+    "active": 48,
     "high": 0,
-    "urgent": 0,
+    "urgent": 7,
     "budget": 0.0
   },
   "sources": [
     {
       "name": "HORIZON EUROPE",
       "type": "API REST",
-      "status": "warn",
-      "count": 0,
-      "time": "actualizado 21:00"
+      "status": "ok",
+      "count": 26,
+      "time": "actualizado 09:15"
     },
     {
       "name": "CDTI",
       "type": "RSS Feed",
       "status": "warn",
       "count": 0,
-      "time": "actualizado 21:00"
+      "time": "actualizado 09:15"
     },
     {
       "name": "IDAE",
       "type": "Web Scraping",
       "status": "ok",
       "count": 22,
-      "time": "actualizado 21:00"
+      "time": "actualizado 09:15"
     },
     {
       "name": "BOE / MITECO",
       "type": "API BOE",
       "status": "warn",
       "count": 0,
-      "time": "actualizado 21:00"
+      "time": "actualizado 09:15"
     },
     {
       "name": "BOA ARAGÓN",
       "type": "Web Scraping",
       "status": "warn",
       "count": 0,
-      "time": "actualizado 21:00"
+      "time": "actualizado 09:15"
     }
   ],
   "keywords": [
     {
+      "name": "energy efficiency",
+      "count": 15,
+      "color": "var(--accent)"
+    },
+    {
       "name": "eficiencia energética",
       "count": 14,
+      "color": "var(--accent)"
+    },
+    {
+      "name": "decarbonisation",
+      "count": 11,
       "color": "var(--accent)"
     },
     {
@@ -1101,13 +2324,23 @@
       "color": "var(--accent)"
     },
     {
+      "name": "waste heat",
+      "count": 3,
+      "color": "var(--accent)"
+    },
+    {
       "name": "hidrógeno",
       "count": 3,
       "color": "var(--teal)"
     },
     {
-      "name": "economía baja en carbono",
-      "count": 1,
+      "name": "decarbonization",
+      "count": 2,
+      "color": "var(--accent)"
+    },
+    {
+      "name": "NOx",
+      "count": 2,
       "color": "var(--accent)"
     }
   ]
