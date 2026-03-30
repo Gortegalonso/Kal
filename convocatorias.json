@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T09:15:31.274811+00:00",
+  "last_updated": "2026-03-30T09:49:08.743835+00:00",
   "convocatorias": [
     {
       "id": 19,
@@ -2271,35 +2271,35 @@
       "type": "API REST",
       "status": "ok",
       "count": 26,
-      "time": "actualizado 09:15"
+      "time": "actualizado 09:49"
     },
     {
       "name": "CDTI",
       "type": "RSS Feed",
       "status": "warn",
       "count": 0,
-      "time": "actualizado 09:15"
+      "time": "actualizado 09:49"
     },
     {
       "name": "IDAE",
       "type": "Web Scraping",
       "status": "ok",
       "count": 22,
-      "time": "actualizado 09:15"
+      "time": "actualizado 09:49"
     },
     {
       "name": "BOE / MITECO",
       "type": "API BOE",
       "status": "warn",
       "count": 0,
-      "time": "actualizado 09:15"
+      "time": "actualizado 09:49"
     },
     {
       "name": "BOA ARAGÓN",
       "type": "Web Scraping",
       "status": "warn",
       "count": 0,
-      "time": "actualizado 09:15"
+      "time": "actualizado 09:49"
     }
   ],
   "keywords": [
