@@ -729,6 +729,48 @@
   .filter-chip.chip-emis.active   { background: var(--red);    border-color: var(--red); }
   .filter-chip.chip-horn.active   { background: #7b5fac;       border-color: #7b5fac; }
 
+  .filter-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    margin: 2px 0;
+  }
+
+  /* Sort chips — slightly distinct from filter chips */
+  .filter-chip.sort-chip.active {
+    background: var(--text);
+    border-color: var(--text);
+    color: #fff;
+  }
+  .filter-chip.sort-chip:not(.active):hover {
+    border-color: var(--text);
+    color: var(--text);
+  }
+
+  /* CSV export button */
+  .csv-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 11px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    color: var(--text2);
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .csv-btn:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .csv-btn:active { transform: scale(0.97); }
+
   /* Toggle switch */
   .toggle-label {
     display: flex;
@@ -941,14 +983,14 @@
     <div class="logo-area">
       <div class="logo-badge">VT–I+D</div>
       <div class="logo-text">
-        <h1>Vigilancia Tecnológica</h1>
-        <p>KALFRISA · Convocatorias de Financiación I+D</p>
+        <h1>Vigilancia tecnológica</h1>
+        <p>Kalfrisa · Convocatorias de financiación I+D</p>
       </div>
     </div>
     <div class="topbar-right">
       <div class="live-badge">
         <div class="live-dot"></div>
-        MONITORIZACIÓN ACTIVA
+        Monitorización activa
       </div>
       <div class="timestamp" id="ts">—</div>
     </div>
@@ -957,12 +999,12 @@
   <!-- STATS -->
   <div class="stats-row">
     <div class="stat-card fade-in" style="--card-color: var(--green); --card-fill: 1">
-      <div class="stat-label">Convocatorias Activas</div>
+      <div class="stat-label">Convocatorias activas</div>
       <div class="stat-value" id="cnt-active">0</div>
       <div class="stat-sub"><span class="stat-delta">↑ 3</span> vs semana anterior</div>
     </div>
     <div class="stat-card fade-in" style="--card-color: var(--accent); --card-fill: 0.7">
-      <div class="stat-label">Alta Compatibilidad</div>
+      <div class="stat-label">Alta compatibilidad</div>
       <div class="stat-value" id="cnt-high">0</div>
       <div class="stat-sub">Encaje ≥ 80%</div>
     </div>
@@ -984,10 +1026,10 @@
     <!-- LEFT: CONVOCATORIAS -->
     <div class="panel">
       <div class="panel-header">
-        <span class="panel-title">Convocatorias Detectadas</span>
+        <span class="panel-title">Convocatorias detectadas</span>
         <div style="display:flex;gap:8px;align-items:center">
-          <span class="panel-tag">IA MATCH</span>
-          <span class="panel-tag" id="filter-count-tag">TODAS</span>
+          <span class="panel-tag">IA match</span>
+          <span class="panel-tag" id="filter-count-tag">Todas</span>
         </div>
       </div>
       <!-- FILTER BAR -->
@@ -1002,27 +1044,32 @@
           <button class="filter-chip" onclick="setFilter('source','BOA ARAGÓN',this)">BOA</button>
         </div>
         <div class="filter-group">
-          <span class="filter-label">Prioridad</span>
-          <button class="filter-chip prio-all active" onclick="setFilter('priority','all',this)">Todas</button>
-          <button class="filter-chip chip-high" onclick="setFilter('priority','high',this)">Alta ≥80%</button>
-          <button class="filter-chip chip-medium" onclick="setFilter('priority','medium',this)">Media</button>
-          <button class="filter-chip chip-low" onclick="setFilter('priority','low',this)">Baja</button>
-        </div>
-        <div class="filter-group">
           <span class="filter-label">Temática</span>
           <button class="filter-chip tag-all active" onclick="setFilter('tag','all',this)">Todas</button>
           <button class="filter-chip chip-h2" onclick="setFilter('tag','h2',this)">H₂</button>
-          <button class="filter-chip chip-ee" onclick="setFilter('tag','ee',this)">Efic. Energ.</button>
+          <button class="filter-chip chip-ee" onclick="setFilter('tag','ee',this)">Efic. energ.</button>
           <button class="filter-chip chip-desc" onclick="setFilter('tag','desc',this)">Descarbonización</button>
           <button class="filter-chip chip-emis" onclick="setFilter('tag','emis',this)">Emisiones</button>
           <button class="filter-chip chip-horn" onclick="setFilter('tag','horn',this)">Hornos</button>
         </div>
-        <div class="filter-group" style="margin-left:auto">
+        <div class="filter-divider"></div>
+        <div class="filter-group">
+          <span class="filter-label">Ordenar por</span>
+          <button class="filter-chip sort-chip active" onclick="setSort('match','desc',this)" title="Más compatibles primero">Compatibilidad ↓</button>
+          <button class="filter-chip sort-chip" onclick="setSort('match','asc',this)" title="Menos compatibles primero">Compatibilidad ↑</button>
+          <button class="filter-chip sort-chip" onclick="setSort('deadline','asc',this)" title="Más urgentes primero">Tiempo restante ↑</button>
+          <button class="filter-chip sort-chip" onclick="setSort('deadline','desc',this)" title="Más lejanas primero">Tiempo restante ↓</button>
+        </div>
+        <div class="filter-group" style="margin-left:auto;gap:10px">
           <label class="toggle-label">
             <input type="checkbox" id="toggle-descartadas" onchange="renderConvs()">
             <span class="toggle-track"><span class="toggle-thumb"></span></span>
             <span class="filter-label" style="margin:0">Ver descartadas</span>
           </label>
+          <button class="csv-btn" onclick="exportCSV()" title="Descargar vista actual en CSV">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" style="display:block;flex-shrink:0"><path d="M6.5 1v7M3.5 5.5L6.5 8.5 9.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M1.5 10.5h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            CSV
+          </button>
         </div>
       </div>
       <div class="conv-list" id="conv-list"></div>
@@ -1035,10 +1082,10 @@
       <div class="panel llm-panel">
         <div class="panel-header">
           <span class="panel-title">Análisis IA</span>
-          <div class="ai-badge"><div class="ai-dot"></div>CLAUDE</div>
+          <div class="ai-badge"><div class="ai-dot"></div>Claude</div>
         </div>
         <div class="llm-summary">
-          <div class="ai-badge" style="margin-bottom:10px"><div class="ai-dot"></div>RESUMEN EJECUTIVO · HOY</div>
+          <div class="ai-badge" style="margin-bottom:10px"><div class="ai-dot"></div>Resumen ejecutivo · hoy</div>
           <p>Se detectan <strong>3 convocatorias de alta prioridad</strong> con encaje ≥ 80% para el perfil de Kalfrisa. La convocatoria <strong>Horizon Europe — Clean Hydrogen</strong> representa la mayor oportunidad presupuestaria (€6M) y coincide directamente con la hoja de ruta de hidrógeno como combustible industrial.</p>
           <p style="margin-top:10px">La <strong>convocatoria IDAE eficiencia térmica industrial</strong> cierra en 18 días. Requiere acción inmediata.</p>
           <p style="margin-top:10px">Recomendación: priorizar preparación de memoria técnica para IDAE y apertura de consorcio para Horizon Europe Q2 2025.</p>
@@ -1048,8 +1095,8 @@
       <!-- URGENCY DEADLINES -->
       <div class="panel">
         <div class="panel-header">
-          <span class="panel-title">Próximos Cierres</span>
-          <span class="panel-tag">DÍAS RESTANTES</span>
+          <span class="panel-title">Próximos cierres</span>
+          <span class="panel-tag">Días restantes</span>
         </div>
         <div class="deadline-list" id="deadline-list">
           <!-- Populated by JS -->
@@ -1065,8 +1112,8 @@
     <!-- KEYWORD RADAR -->
     <div class="panel">
       <div class="panel-header">
-        <span class="panel-title">Palabras Clave</span>
-        <span class="panel-tag">FRECUENCIA</span>
+        <span class="panel-title">Palabras clave</span>
+        <span class="panel-tag">Frecuencia</span>
       </div>
       <div class="keyword-list" id="kw-list">
         <!-- Populated by JS -->
@@ -1076,8 +1123,8 @@
     <!-- SOURCE STATUS -->
     <div class="panel">
       <div class="panel-header">
-        <span class="panel-title">Fuentes Monitorizadas</span>
-        <span class="panel-tag">ESTADO</span>
+        <span class="panel-title">Fuentes monitorizadas</span>
+        <span class="panel-tag">Estado</span>
       </div>
       <div class="source-list" id="source-list">
         <!-- Populated by JS -->
@@ -1087,11 +1134,11 @@
     <!-- TREND MINI CHART -->
     <div class="panel">
       <div class="panel-header">
-        <span class="panel-title">Tendencia Semanal</span>
-        <span class="panel-tag">CONVOCATORIAS</span>
+        <span class="panel-title">Tendencia semanal</span>
+        <span class="panel-tag">Convocatorias</span>
       </div>
       <div class="chart-wrap">
-        <div style="font-size:10px;color:var(--text3);font-family:var(--mono);letter-spacing:1px;margin-bottom:8px;">NUEVAS DETECCIONES / SEMANA</div>
+        <div style="font-size:10px;color:var(--text3);font-family:var(--mono);letter-spacing:1px;margin-bottom:8px;">Nuevas detecciones / semana</div>
         <div class="mini-bars" id="mini-bars">
           <!-- Populated by JS -->
         </div>
@@ -1102,7 +1149,7 @@
 
   <!-- FOOTER -->
   <div class="footer">
-    <div class="footer-left">VIGTECH v0.2 · KALFRISA I+D · ZARAGOZA</div>
+    <div class="footer-left">VigTech v0.2 · Kalfrisa I+D · Zaragoza</div>
     <div class="footer-right">
       <div class="footer-item"><div class="footer-dot" style="background:var(--teal)"></div> Horizon Europe</div>
       <div class="footer-item"><div class="footer-dot" style="background:var(--accent)"></div> CDTI</div>
@@ -1116,8 +1163,8 @@
 <!-- AI DETAIL OVERLAY -->
 <div class="ai-overlay" id="ai-overlay">
   <div class="ai-modal">
-    <button class="close-btn" onclick="closeOverlay()">✕ CERRAR</button>
-    <div class="ai-modal-title" id="ov-source-label">ANÁLISIS DE ENCAJE IA</div>
+    <button class="close-btn" onclick="closeOverlay()">✕ Cerrar</button>
+    <div class="ai-modal-title" id="ov-source-label">Análisis de encaje</div>
     <div class="ai-modal-conv" id="ov-title">—</div>
 
     <!-- Meta row: org, TRL, consorcio -->
@@ -1130,7 +1177,7 @@
         <div style="display:flex;align-items:baseline;gap:3px">
           <div class="ring-score" id="ov-score">—</div>
         </div>
-        <div class="ring-label">MATCH SCORE</div>
+        <div class="ring-label">Match score</div>
       </div>
       <div class="ring-dims" id="ov-dims"></div>
     </div>
@@ -1138,18 +1185,18 @@
     <!-- Deadline block -->
     <div id="ov-deadline-block" style="margin-top:14px"></div>
 
-    <div class="ai-section-title">RESUMEN EJECUTIVO</div>
+    <div class="ai-section-title">Resumen ejecutivo</div>
     <div class="ai-text" id="ov-summary">—</div>
 
-    <div class="ai-section-title">KEYWORDS DETECTADAS</div>
+    <div class="ai-section-title">Keywords detectadas</div>
     <div id="ov-tags" style="display:flex;gap:5px;flex-wrap:wrap;margin-top:4px;"></div>
 
-    <div class="ai-section-title">ACCIÓN RECOMENDADA</div>
+    <div class="ai-section-title">Acción recomendada</div>
     <div class="ai-text" id="ov-action">—</div>
 
     <!-- Descarte motivo (only shown if descartada) -->
     <div id="ov-descarte-block" style="display:none;margin-top:16px;padding:12px 14px;background:rgba(255,59,48,0.06);border:1px solid rgba(255,59,48,0.2);border-radius:10px">
-      <div style="font-size:10px;font-weight:600;color:var(--red);letter-spacing:0.5px;margin-bottom:4px">MOTIVO DE DESCARTE</div>
+      <div style="font-size:10px;font-weight:600;color:var(--red);letter-spacing:0.5px;margin-bottom:4px">Motivo de descarte</div>
       <div class="ai-text" id="ov-descarte-motivo" style="color:var(--text2)">—</div>
     </div>
   </div>
@@ -1168,26 +1215,81 @@
     desc: 'Descarbonización', emis: 'Emisiones', horn: 'Hornos'
   };
 
-  // ── FILTER STATE ─────────────────────────────────────────────────────────────
-  const filterState = { source: 'all', priority: 'all', tag: 'all' };
+  // ── FILTER + SORT STATE ───────────────────────────────────────────────────────
+  const filterState = { source: 'all', tag: 'all' };
+  const sortState   = { key: 'match', dir: 'desc' };
 
   function setFilter(dim, val, el) {
     filterState[dim] = val;
-    // Deactivate siblings in same group
     el.closest('.filter-group').querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+    el.classList.add('active');
+    renderConvs();
+  }
+
+  function setSort(key, dir, el) {
+    sortState.key = key;
+    sortState.dir = dir;
+    document.querySelectorAll('.sort-chip').forEach(c => c.classList.remove('active'));
     el.classList.add('active');
     renderConvs();
   }
 
   function getFiltered() {
     const showDesc = document.getElementById('toggle-descartadas')?.checked;
-    return convocatorias.filter(c => {
+    let list = convocatorias.filter(c => {
       if (c.descartada && !showDesc) return false;
-      if (filterState.source   !== 'all' && c.source   !== filterState.source)   return false;
-      if (filterState.priority !== 'all' && c.priority !== filterState.priority) return false;
-      if (filterState.tag      !== 'all' && !(c.tags||[]).includes(filterState.tag)) return false;
+      if (filterState.source !== 'all' && c.source !== filterState.source) return false;
+      if (filterState.tag    !== 'all' && !(c.tags||[]).includes(filterState.tag)) return false;
       return true;
     });
+
+    // Sort
+    list = [...list].sort((a, b) => {
+      const aVal = sortState.key === 'match' ? a.match : a.deadline;
+      const bVal = sortState.key === 'match' ? b.match : b.deadline;
+      return sortState.dir === 'desc' ? bVal - aVal : aVal - bVal;
+    });
+
+    return list;
+  }
+
+  // ── CSV EXPORT ────────────────────────────────────────────────────────────────
+  function exportCSV() {
+    const list = getFiltered();
+    const tagLabels = { h2:'Hidrógeno', ee:'Efic. energ.', desc:'Descarbonización', emis:'Emisiones', horn:'Hornos' };
+    const headers = ['ID','Fuente','Título','Organismo','Match %','Prioridad','Días restantes','Apertura','Cierre','TRL mín','TRL máx','Socios consorcio','Temáticas','Descartada','URL'];
+
+    const esc = v => {
+      const s = String(v ?? '').replace(/"/g, '""');
+      return s.includes(',') || s.includes('"') || s.includes('\n') ? `"${s}"` : s;
+    };
+
+    const rows = list.map(c => [
+      c.id,
+      c.source,
+      c.title,
+      c.org,
+      c.match,
+      c.priority === 'high' ? 'Alta' : c.priority === 'medium' ? 'Media' : 'Baja',
+      c.deadline,
+      c.open_date     || '',
+      c.deadline_date || '',
+      c.trl_min ?? '',
+      c.trl_max ?? '',
+      c.socio_consorcio || '',
+      (c.tags||[]).map(t => tagLabels[t]||t).join(' | '),
+      c.descartada ? 'Sí' : 'No',
+      c.url || ''
+    ].map(esc).join(','));
+
+    const csv  = '\uFEFF' + [headers.map(esc).join(','), ...rows].join('\r\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const a    = document.createElement('a');
+    a.href     = URL.createObjectURL(blob);
+    const ts   = new Date().toISOString().slice(0,10);
+    a.download = `vigtech-kalfrisa-${ts}.csv`;
+    a.click();
+    URL.revokeObjectURL(a.href);
   }
 
   // ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -1280,7 +1382,7 @@
     const list = getFiltered();
     const total = convocatorias.filter(c => !c.descartada).length;
     const badge = document.getElementById('filter-count-tag');
-    if (badge) badge.textContent = list.length === total ? 'TODAS' : `${list.length} / ${total}`;
+    if (badge) badge.textContent = list.length === total ? 'Todas' : `${list.length} / ${total}`;
 
     if (list.length === 0) {
       el.innerHTML = '<div class="no-results">No hay convocatorias con los filtros activos.</div>';
@@ -1291,19 +1393,21 @@
       const dColor = deadlineColor(c.deadline);
       const dPct   = deadlineBarPct(c.deadline);
       const dLabel = formatDeadlineDate(c.deadline_date);
+      const oLabel = formatDeadlineDate(c.open_date);
       const future = isFuture(c.deadline);
       const urgentBadge = c.deadline <= 20 && !c.descartada
-        ? `<span style="color:var(--red);font-size:10px;font-weight:600">⚠ URGENTE · </span>`
+        ? `<span style="color:var(--red);font-size:10px;font-weight:600">⚠ Urgente · </span>`
         : '';
       const descartadaBadge = c.descartada
-        ? `<div class="descarte-badge">✕ DESCARTADA</div>` : '';
+        ? `<div class="descarte-badge">✕ Descartada</div>` : '';
 
       const deadlineRow = `
         <div style="display:flex;align-items:center;justify-content:space-between;margin-top:2px">
-          <div class="meta-item" style="color:${dColor}">
+          <div class="meta-item" style="color:${dColor};flex-wrap:wrap;gap:4px">
             ${urgentBadge}<span class="meta-icon">⏱</span> ${c.deadline}d restantes
+            ${oLabel ? `<span class="deadline-date-label" style="margin-left:4px">· apertura ${oLabel}</span>` : ''}
             ${dLabel ? `<span class="deadline-date-label" style="margin-left:4px">· cierre ${dLabel}</span>` : ''}
-            ${future && !c.descartada ? `<span class="future-badge">📅 apertura pendiente</span>` : ''}
+            ${future && !oLabel && !c.descartada ? `<span class="future-badge">📅 apertura pendiente</span>` : ''}
           </div>
         </div>
         <div class="deadline-bar-wrap">
@@ -1322,7 +1426,7 @@
           </div>
           <div class="match-score">
             <div class="match-pct ${c.priority}">${c.match}%</div>
-            <div class="match-label">MATCH</div>
+            <div class="match-label">Match</div>
           </div>
         </div>
         <div class="conv-meta">
@@ -1490,7 +1594,7 @@
     if (!c) return;
 
     // Header
-    document.getElementById('ov-source-label').textContent = c.source + ' · ANÁLISIS DE ENCAJE';
+    document.getElementById('ov-source-label').textContent = c.source + ' · Análisis de encaje';
     document.getElementById('ov-title').textContent = c.title;
 
     // Score color
@@ -1514,6 +1618,7 @@
     const dColor = deadlineColor(c.deadline);
     const dPct   = deadlineBarPct(c.deadline);
     const dLabel = formatDeadlineDate(c.deadline_date);
+    const oLabel = formatDeadlineDate(c.open_date);
     const future = isFuture(c.deadline);
     const deadlineEl = document.getElementById('ov-deadline-block');
     deadlineEl.innerHTML = `
@@ -1523,10 +1628,12 @@
           <div class="di-label">días restantes</div>
         </div>
         <div class="di-dates">
+          ${oLabel
+            ? `<div class="di-date-row"><div class="di-dot" style="background:var(--green)"></div>Apertura: <strong>${oLabel}</strong></div>`
+            : future ? `<div class="di-date-row"><div class="di-dot" style="background:var(--text3)"></div><span style="color:var(--text3)">Fecha de apertura sin confirmar</span></div>` : ''}
           ${dLabel
             ? `<div class="di-date-row"><div class="di-dot" style="background:${dColor}"></div>Cierre: <strong>${dLabel}</strong></div>`
             : `<div class="di-date-row"><div class="di-dot" style="background:var(--text3)"></div><em style="color:var(--text3)">Fecha de cierre sin confirmar</em></div>`}
-          ${future ? `<div class="di-date-row"><div class="di-dot" style="background:var(--text3)"></div><span style="color:var(--text3)">📅 Apertura de plazo pendiente</span></div>` : ''}
           <div class="di-bar-wrap">
             <div class="di-bar-fill" style="width:${dPct}%;background:${dColor}"></div>
           </div>
