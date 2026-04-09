@@ -1237,6 +1237,8 @@
   function getFiltered() {
     const showDesc = document.getElementById('toggle-descartadas')?.checked;
     let list = convocatorias.filter(c => {
+      // Nunca mostrar convocatorias con plazo cerrado (deadline<=0)
+      if ((c.deadline ?? 1) <= 0) return false;
       if (c.descartada && !showDesc) return false;
       if (filterState.source !== 'all' && c.source !== filterState.source) return false;
       if (filterState.tag    !== 'all' && !(c.tags||[]).includes(filterState.tag)) return false;
@@ -1380,9 +1382,13 @@
   function renderConvs() {
     const el = document.getElementById('conv-list');
     const list = getFiltered();
-    const total = convocatorias.filter(c => !c.descartada).length;
+    // Total base: non-closed, non-discarded (unless toggle on)
+    const showDesc = document.getElementById('toggle-descartadas')?.checked;
+    const totalBase = convocatorias.filter(c =>
+      (c.deadline ?? 1) > 0 && (showDesc || !c.descartada)
+    ).length;
     const badge = document.getElementById('filter-count-tag');
-    if (badge) badge.textContent = list.length === total ? 'Todas' : `${list.length} / ${total}`;
+    if (badge) badge.textContent = list.length === totalBase ? 'Todas' : `${list.length} / ${totalBase}`;
 
     if (list.length === 0) {
       el.innerHTML = '<div class="no-results">No hay convocatorias con los filtros activos.</div>';
@@ -1395,6 +1401,7 @@
       const dLabel = formatDeadlineDate(c.deadline_date);
       const oLabel = formatDeadlineDate(c.open_date);
       const future = isFuture(c.deadline);
+      const sinConfirmar = c.fecha_sin_confirmar;
       const urgentBadge = c.deadline <= 20 && !c.descartada
         ? `<span style="color:var(--red);font-size:10px;font-weight:600">⚠ Urgente · </span>`
         : '';
@@ -1407,11 +1414,12 @@
             ${urgentBadge}<span class="meta-icon">⏱</span> ${c.deadline}d restantes
             ${oLabel ? `<span class="deadline-date-label" style="margin-left:4px">· apertura ${oLabel}</span>` : ''}
             ${dLabel ? `<span class="deadline-date-label" style="margin-left:4px">· cierre ${dLabel}</span>` : ''}
-            ${future && !oLabel && !c.descartada ? `<span class="future-badge">📅 apertura pendiente</span>` : ''}
+            ${sinConfirmar ? `<span class="future-badge" style="color:var(--text3);border-color:var(--border)">📅 fecha sin confirmar</span>` : ''}
+            ${future && !oLabel && !sinConfirmar && !c.descartada ? `<span class="future-badge">📅 apertura pendiente</span>` : ''}
           </div>
         </div>
         <div class="deadline-bar-wrap">
-          <div class="deadline-bar-fill" style="width:0%;background:${dColor}" data-pct="${dPct}"></div>
+          <div class="deadline-bar-fill" style="width:0%;background:${sinConfirmar ? 'var(--border2)' : dColor}" data-pct="${dPct}"></div>
         </div>`;
 
       return `
@@ -1449,7 +1457,7 @@
   function renderDeadlines() {
     const el = document.getElementById('deadline-list');
     const sorted = [...convocatorias]
-      .filter(c => !c.descartada)
+      .filter(c => !c.descartada && (c.deadline ?? 1) > 0)
       .sort((a,b) => a.deadline - b.deadline)
       .slice(0,5);
     el.innerHTML = sorted.map(c => {
@@ -1516,10 +1524,11 @@
 
   // ── COUNTERS ─────────────────────────────────────────────────────────────────
   function animateCounters() {
-    const active     = convocatorias.filter(c => !c.descartada).length;
-    const high       = convocatorias.filter(c => !c.descartada && c.match >= 80).length;
-    const urgent     = convocatorias.filter(c => !c.descartada && c.deadline < 30).length;
-    const discarded  = convocatorias.filter(c => c.descartada).length;
+    const nonClosed  = convocatorias.filter(c => (c.deadline ?? 1) > 0);
+    const active     = nonClosed.filter(c => !c.descartada).length;
+    const high       = nonClosed.filter(c => !c.descartada && c.match >= 80).length;
+    const urgent     = nonClosed.filter(c => !c.descartada && c.deadline < 30).length;
+    const discarded  = nonClosed.filter(c => c.descartada).length;
     animNum('cnt-active',    active,   800);
     animNum('cnt-high',      high,     800);
     animNum('cnt-urgent',    urgent,   800);
@@ -1620,12 +1629,13 @@
     const dLabel = formatDeadlineDate(c.deadline_date);
     const oLabel = formatDeadlineDate(c.open_date);
     const future = isFuture(c.deadline);
+    const sinConfirmar = c.fecha_sin_confirmar;
     const deadlineEl = document.getElementById('ov-deadline-block');
     deadlineEl.innerHTML = `
       <div class="deadline-info-block">
         <div style="flex-shrink:0;text-align:center">
-          <div class="di-days" style="color:${dColor}">${c.deadline}</div>
-          <div class="di-label">días restantes</div>
+          <div class="di-days" style="color:${sinConfirmar ? 'var(--text3)' : dColor}">${c.deadline}</div>
+          <div class="di-label">días restantes${sinConfirmar ? '*' : ''}</div>
         </div>
         <div class="di-dates">
           ${oLabel
@@ -1634,8 +1644,9 @@
           ${dLabel
             ? `<div class="di-date-row"><div class="di-dot" style="background:${dColor}"></div>Cierre: <strong>${dLabel}</strong></div>`
             : `<div class="di-date-row"><div class="di-dot" style="background:var(--text3)"></div><em style="color:var(--text3)">Fecha de cierre sin confirmar</em></div>`}
+          ${sinConfirmar ? `<div class="di-date-row" style="margin-top:2px"><div class="di-dot" style="background:var(--orange)"></div><span style="color:var(--orange);font-size:10px">* Plazo estimado — verificar en la fuente antes de actuar</span></div>` : ''}
           <div class="di-bar-wrap">
-            <div class="di-bar-fill" style="width:${dPct}%;background:${dColor}"></div>
+            <div class="di-bar-fill" style="width:${dPct}%;background:${sinConfirmar ? 'var(--border2)' : dColor}"></div>
           </div>
         </div>
       </div>`;
